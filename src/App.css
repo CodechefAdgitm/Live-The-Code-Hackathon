@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -221,14 +222,4 @@
         border-left: 0;
         left: -15px;
     }
-}
-
-/* --------------------------Team--------------------------- */
-
-.body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #222;
 }
