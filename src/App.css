@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -222,3 +223,8 @@
         left: -15px;
     }
 }
+
+body{
+    background-color: rgb(17, 17, 17);
+}
+
