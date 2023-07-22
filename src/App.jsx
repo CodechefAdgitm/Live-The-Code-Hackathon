@@ -11,16 +11,21 @@ import Sponsors from './components/sponsors/Sponsors'
 import Teams from './components/teams/Teams'
 import Themes from './components/themes/Themes'
 import Timeline from './components/timeline/Timeline'
+
+import Events from './components/about/Events'
+
 import Offerings from './components/offerings/Offerings'
 import Contact from './components/contact/Contact'
 import Ask from './components/ask/Ask'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
       <div>
         <Navbar/>
         <Hero/>
         <About/>
+        <Events/>
         <Timeline/>
         <Themes/>
         <Rules/>
