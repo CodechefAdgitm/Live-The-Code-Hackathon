@@ -11,7 +11,7 @@ import Sponsors from './components/sponsors/Sponsors'
 import Teams from './components/teams/Teams'
 import Themes from './components/themes/Themes'
 import Timeline from './components/timeline/Timeline'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
       <div>
