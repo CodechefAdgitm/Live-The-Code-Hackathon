@@ -222,3 +222,13 @@
         left: -15px;
     }
 }
+
+/* --------------------------Team--------------------------- */
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+}
