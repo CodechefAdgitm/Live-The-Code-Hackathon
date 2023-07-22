@@ -11,6 +11,7 @@ import Sponsors from './components/sponsors/Sponsors'
 import Teams from './components/teams/Teams'
 import Themes from './components/themes/Themes'
 import Timeline from './components/timeline/Timeline'
+import Events from './components/about/Events'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <About/>
+        <Events/>
         <Timeline/>
         <Themes/>
         <Rules/>
