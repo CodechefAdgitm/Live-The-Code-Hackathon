@@ -1,0 +1,201 @@
+body{
+    padding: 40px 0;
+
+}
+
+/* =========== PRIZE SECTION CODE ================== */
+.prize-section{
+    width: 90%;
+    margin-left: 80px;
+    height: 100%;
+    background-color: rgb(242,238,254);
+    padding: 4px 2px;
+    border-radius: 19px;
+    padding-bottom: 100px;
+
+}
+.prize-section .container1{
+    padding: 0px 110px;
+}
+.prize-section h1{
+    text-align: center;
+    font-size: 85px;
+    color:#363535;
+    
+}
+
+.prize-section h2{
+    font-size: 35px;
+    /* margin-bottom: 40px; */
+}
+
+.prize-section a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    /* padding-top: 10px; */
+}
+
+.prize-section p{
+    font-size: 23px;
+    color: rgb(91, 96, 102);
+}
+
+
+.prize img{
+    position: relative;
+}
+
+
+.first-cup img{
+     width: 75px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -80px; 
+}
+.rotate img{
+    transform: rotate(30deg);
+
+}
+.container1{
+    padding: 100px 0px;
+    margin-top: 100px;
+}
+
+.second-cup img{
+    margin-top: -160px;
+    width: 90px;
+    margin-left: -80px;
+}
+.third-cup img{
+    width: 70px;
+    /* margin-top: -340px; */
+    /* margin-top: 20px; */
+    margin-top: -20px;
+    margin-left: -80px;
+    width: 90px;
+}
+.others img{
+    width: 80px;
+    /* margin-bottom: -30px; */
+    margin-top: -25px;
+    margin-left: -95px;
+    width: 90px;
+    /* margin-left: -1; */
+}
+.prize h1{
+    /* line-height: -111px; */
+}
+
+.prize{
+    /* background-color: rgb(224, 224, 224); */
+    background-color: rgb(200,204,244);
+    padding: 2px 60px;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* ========= SPONSORS PART ========== */
+.sponsors{
+    margin-top: 150px;
+    width: 90%;
+    margin-left: 80px;
+    border-radius: 19px;
+    height: 100%;
+    background-color: rgb(242, 238, 254);
+}
+.sponsors h1{
+    text-align: center;
+    font-size: 100px;
+    padding: 70px 0 0 0;
+    color: #363535;
+}
+
+.interested{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.interested h3{
+    font-size: 35px;
+    color: #363535;
+}
+.interested button{
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: rgb(224, 224, 224);
+}
+
+.interested button:hover{
+    /* background-color: rgb(148, 121, 173); */
+    background-color: rgb(200,204,244);
+    transition: 0.3s;
+}
+
+img{
+    width: 100px;
+}
+
+
+.client-area{
+    /* padding: 150px 0 0; */
+    padding: 140px 0;
+    
+}
+
+.slick-slide{
+    margin: 0 20px;
+}
+
+.slick-slide img{
+    width: 100%;
+}
+
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus{
+    outline: none;
+}
+
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img{
+    display: block;
+
+}
+
+.slick-initialized .slick-slide{
+    display: block;
+}
+
+.slick-loading .slick-slide{
+    visibility: hidden;
+}
+.container{
+    background-color: rgb(200,204,244);
+    border-radius: 20px;
+    padding: 70px;
+}
+
+.logo-area .slinder img{
+    border-radius: 50%;
+}
+
+
