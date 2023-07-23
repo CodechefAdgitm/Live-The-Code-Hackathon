@@ -1,100 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
-
-@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-.RuleHead{
-    font-size: 80px;
-    color: antiquewhite;
-    font-family: 'Tektur', cursive;
-    text-decoration: underline  ;
-    /* box-shadow: 2px 2px 2px 1px rgba(198, 33, 33, 0.441); */
-
-    font-size: calc(20px + 18vh);
-        line-height: calc(20px + 20vh);
-        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-            color: #fff6a9;
-            font-family: "Sacramento", cursive;
-            text-align: center;
-            animation: blink 12s infinite;
-            -webkit-animation: blink 12s infinite;
-}
-
-@-webkit-keyframes blink {
-
-    20%,
-    24%,
-    55% {
-        color: #111;
-        text-shadow: none;
-    }
-
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-        /*     color: #fccaff;
-    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
-      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
-        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-        color: #fff6a9;
-    }
-}
-
-@keyframes blink {
-
-    20%,
-    24%,
-    55% {
-        color: #111;
-        text-shadow: none;
-    }
-
-    0%,
-    19%,
-    21%,
-    23%,
-    25%,
-    54%,
-    56%,
-    100% {
-        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-        color: #fff6a9;
-    }
-}
-.faltudiv {
-    height: 50px;
-    background-color: rgb(0, 0, 0);
-}
-.RulePoints ,.RulePoints2{
-    font-size: 30px;
-    /* color: rgb(188, 185, 236);
-    font-family: 'Roboto Slab', serif;
-    text-shadow:0 0 5px #6718e7 , 0 0 2px #6a34d7 , 0 0 15px #9595e7; */
-    /* color: rgb(155, 233, 178); */
-    color: rgb(255, 255, 255);
-        /* font-family: 'Roboto Slab', serif; */
-        font-family: 'Playfair Display', serif;
-        text-shadow: 0 0 10px #cf6767;
-        /* text-shadow: 0 0 5px #000000, 0 0 2px #000000, 0 0 18px #25d622; */
-}
-.ruleclass{
-    background-color: black;
-}
-@media screen and (max-width:440px) {
-    .RuleHead{
-        font-size: 40px;
-    }
-    .RulePoints{
-        font-size: 15px;
-    }
-    .RulePoints2{
-        font-size: 15px;
-    }
-    
-}
+.participation-rules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 40px;
+    color: #fff;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .points-container {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .rules-list {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .rules-list li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .rules-list li:before {
+    content: "\2022"; /* Bullet character */
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  

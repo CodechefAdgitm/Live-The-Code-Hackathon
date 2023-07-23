@@ -5,42 +5,27 @@ import Col from "react-bootstrap/Col";
 import "./Contact.css";
 export default function Contact() {
   return (
-    <div className="ruleclass">
-      <Container>
-        <Row>
-          <h2 className="RuleHead">Contact Details</h2>
-        </Row>
-        <Row className="RulePoints">
-          <Col> Emails:</Col>
-        </Row>
-        <Row className="RulePoints">
-          <Col> <a href="mailto:codechef.adgitm@adgitmdelhi.ac.in">codechef.adgitm@adgitmdelhi.ac.in</a></Col>
-        </Row>
-        <Row className="RulePoints">
-          <Col> <a href="mailto:codechefadgitmchapter@gmail.com">codechefadgitmchapter@gmail.com</a></Col>
-        </Row>
-        <Row className="RulePoints">
-          <Col>
-           Phone Numbers:
-          </Col>
-        </Row>
-        <Row className="RulePoints">
-          <Col>
-           Himanshu Gupta - +91 9899141418
-          </Col>
-        </Row>
-        <Row className="RulePoints">
-          <Col>
-           Tanisha Bansal - +91 92131 16476 
-          </Col>
-        </Row>
-        <Row className="RulePoints">
-          <Col>
-         Mansi Sharma - +91 99539 30377
-          </Col>
-        </Row>
-      </Container>
-      <div className="faltudiv"></div>
-    </div>
+    <>
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-left">
+          <h3>Contact Us</h3>
+          <p>Email: codechef.adgitm@adgitmdelhi.ac.in <br/>codechefadgitmchapter@gmail.com</p>
+          <p>Phone:  Himanshu Gupta - +91 9899141418 <br/>Tanisha Bansal - +91 92131 16476 <br/>Mansi Sharma - +91 99539 30377</p>
+        </div>
+        <div className="footer-right">
+          <h3>Follow Us</h3>
+          <ul className="social-links">
+            <li><a href="https://facebook.com/hackathon" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://twitter.com/hackathon" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+            <li><a href="https://instagram.com/hackathon" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>&copy; {new Date().getFullYear()} Hackathon Site. All rights reserved.</p>
+      </div>
+    </footer></>
+    
   );
 }

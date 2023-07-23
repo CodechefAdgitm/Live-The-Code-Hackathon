@@ -1,0 +1,45 @@
+/* ... Existing CSS code ... */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222222;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Add a new class to style the navigation links in a single line */
+  .nav-links {
+    display: flex;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px; /* Add some space between the brand and navigation links */
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #A3CFCD;
+  }
+  
