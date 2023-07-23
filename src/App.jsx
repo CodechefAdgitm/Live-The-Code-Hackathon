@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
+import Events from './components/about/Events'
 import Rules from './components/participation_rules/Rules'
 import Prize from './components/prize_section/Prize'
 import Sponsors from './components/sponsors/Sponsors'
@@ -21,6 +22,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <About/>
+        <Events/>
         <Timeline/>
         <Themes/>
         <Rules/>
