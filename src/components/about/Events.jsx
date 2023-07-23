@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../assets/images/logo.jpg";
-import "./Events.css";
 
 export default function Events() {
   return (
