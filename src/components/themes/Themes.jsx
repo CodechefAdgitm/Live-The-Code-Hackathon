@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
@@ -14,6 +14,7 @@ import Arvr from "./cmp/arvr.jsx";
 import Fintech from "./cmp/Fintech.jsx";
 import Carousel from "react-bootstrap/Carousel";
 import "./Themes.css";
+
 
 const themesData = [
   { title: 'Theme 1', description: 'Description of Theme 1' },
@@ -31,6 +32,7 @@ export default function Themes() {
   return (
     <>
       <section className="themes">
+     
       <div className="themes-container">
         {themesData.map((theme, index) => (
           <div className="theme-box" key={index}>
@@ -39,6 +41,7 @@ export default function Themes() {
           </div>
         ))}
       </div>
+      
     </section>
     </>
   );

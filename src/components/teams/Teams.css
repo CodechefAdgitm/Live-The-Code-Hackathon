@@ -1,5 +1,5 @@
 .team{
-    background: #222;
+    background: #000;
     box-shadow: inset 0 0 3rem rgba(0,0,0,0.5);
 }
 .team_container{
@@ -11,7 +11,9 @@
     
 }
 .team_member{
-    background: #42488C;
+  
+    background: #222222;
+    border-color: #6C63FF;
     padding: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -20,7 +22,7 @@
     border-radius: 4px;
 }
 .team_member:hover{
-    background: transparent;
+    background: #222222;
     border-color: #363870;
 }
 .team_member-image img{

@@ -1,0 +1,31 @@
+    /* Style the About section */
+  .about {
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f0f0f0;
+
+  }
+  
+  .about-image img {
+    width: 400px; /* Adjust the image size as needed */
+    background-color: blue;
+  }
+  
+  .about-content {
+    padding-left: 20px;
+    background-color: red;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  

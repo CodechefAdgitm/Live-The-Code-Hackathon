@@ -1,5 +1,6 @@
 import React from "react";
 import aboutSvg from "../../assets/images/about.svg";
+import "./About.css";
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
         <div className="container">
           <section className="about">
             <div className="about-image">
-              <img src={aboutSvg} />
+              <img src={aboutSvg} alt="About Us" />
             </div>
             <div className="about-content">
               <h2>
