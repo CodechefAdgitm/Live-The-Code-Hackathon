@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './styles_prize.css';
 export default function Prize() {
   return (
     <div>
