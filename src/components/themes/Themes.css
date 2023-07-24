@@ -1,182 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-
-#themes {
-    font-size: 100px;
-    font-family: 'Playfair Display', serif;
-    -webkit-background-clip: text;
-    text-align: center;
-    -webkit-text-fill-color: transparent;
-
+.themes {
+  padding: 80px 0;
+  background-color: #f0f0f0;
 }
 
-
-/* Add the following styles for all headings */
-h1, h2, h3, h4, h5, h6 {
-    color: #2A272A;
-  }
-  
-  .heading {
-    font-size: 3.5rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  
-  h3 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  h4 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  
-  h5 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 6px;
-  }
-  
-  h6 {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 4px;
-  }
-
-  
-  
-  .themes {
-    background-color: #000;
-    padding: 40px 0;
-  }
-  
-  .themes-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .theme-box {
-    width: calc(25% - 20px);
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #222222;
-    color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .theme-box h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .theme-box p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  
-.abc {
-    background-color: rgb(0, 0, 0);
+.themes-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-
-
-.faltudiv {
-    height: 50px;
-    background-color: rgb(0, 0, 0);
+.theme-box {
+  flex: 0 0 calc(33.33% - 20px); /* Each box takes one-third of the container width with 20px gap */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: transform 0.3s ease-in-out; /* Add smooth transition */
 }
 
-.glow {
-    font-size: 80px;
-    color: #fff;
-    /* text-align: center; */
-    -webkit-animation: glow 0.5s ease-in-out infinite alternate;
-    -moz-animation: glow 0.5s ease-in-out infinite alternate;
-    animation: glow 0.5s ease-in-out infinite alternate;
+.theme-box:hover {
+  transform: translateY(-5px); /* Apply hover effect */
 }
 
-@-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 0px #fff, 0 0 8px #fff, 0 0 12px #e60073, 0 0 18px #e60073, 0 0 23px #e60073, 0 0 24px #e60073, 0 0 24px #e60073;
-    }
-
-    to {
-        text-shadow: 0 0 0px #fff, 0 0 10px #ff4da6, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 26px #ff4da6, 0 0 28px #ff4da6;
-    }
+.theme-box h3 {
+  font-size: 1.5rem;
+  color: #000; /* Use black (#000) for the heading text color */
+  margin-bottom: 10px;
 }
 
-.modals {
-    background-color: rgb(30, 30, 32) !important;
-    color: #fff !important;
+.theme-box img {
+  width: 80px; /* Adjust the size of the icon */
 }
 
-/*card realted*/
-.cardimgbg {
-    color: white !important;
-    background-color: black !important;
-    height: 250px;
-}
-
-.cardtxtbg {
-    color: white !important;
-    /* background-color: rgb(30, 30, 32) !important; */
-    background-color: rgb(0, 0, 0) !important;
-    /* min-height: 200px; */
-}
-
-.cardclass {
-    font-family: 'Playfair Display', serif;
-    /* border:5px solid red; */
-    box-shadow: 2px 2px 4px 4px rgb(71, 4, 4);
-    margin-top: 20px;
-    min-height: 450px;
-}
-
-.abc2 {
-    display: none;
-    display: black !important;
-}
-
-@media screen and (max-width:440px) {
-    #themes {
-        font-size: 50px;
-        margin-inline: auto;
-    }
-    .cardimgbg{
-        height: 200px;
-    }
-    .ca{
-        /* width:1000px; */
-    }
-
-    .abc {
-        display: none;
-        background-color: rgb(0, 0, 0) !important;
-    }
-
-    .abc2 {
-        display: inline;
-        background-color: rgb(0, 0, 0) !important;
-    }
-
-    .card {
-        max-width: 100%;
-        font-size: 15px;
-        margin-inline: auto;
-        min-height: 469px;
-    }
+.theme-box p {
+  font-size: 1rem;
+  color: #222; /* Use dark gray (#222) for the description text color */
 }

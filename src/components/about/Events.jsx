@@ -1,13 +1,22 @@
-import React from "react";
+import React,{useEffect} from "react";
 import logo from "../../assets/images/logo.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import "./Event.css"
 
 export default function Events() {
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
   return (
     <div className="events heading">
       <h1>About Past Events</h1>
       <div className="timeline">
         <div className="container-event left-container">
           <img src={logo} />
+          <div data-aos="fade-right">
           <div className="text-box">
             <h2>LIVE THE CODE</h2>
             <small>2020 - 2021</small>
@@ -20,12 +29,14 @@ export default function Events() {
             </p>
             <span className="left-container-arrow"></span>
           </div>
+          </div>
         </div>
       </div>
 
       <div className="timeline">
         <div className="container-event right-container">
           <img src={logo} />
+          <div data-aos="fade-left">
           <div className="text-box">
             <h2>DSA CARNIVAL</h2>
             <small>2021 - 2022</small>
@@ -38,11 +49,13 @@ export default function Events() {
             <span className="right-container-arrow"></span>
           </div>
         </div>
+        </div>
       </div>
 
       <div className="timeline">
         <div className="container-event left-container">
           <img src={logo} />
+          <div data-aos="fade-right">
           <div className="text-box">
             <h2>CODE BLOODED</h2>
             <small>2022 - 2023</small>
@@ -56,12 +69,14 @@ export default function Events() {
             </p>
             <span className="left-container-arrow"></span>
           </div>
+          </div>
         </div>
       </div>
 
       <div className="timeline">
         <div className="container-event right-container">
           <img src={logo} />
+          <div data-aos="fade-left">
           <div className="text-box">
             <h2>Present Event</h2>
             <small>2023</small>
@@ -73,6 +88,7 @@ export default function Events() {
               open-ended real life problems.
             </p>
             <span className="right-container-arrow"></span>
+          </div>
           </div>
         </div>
       </div>
