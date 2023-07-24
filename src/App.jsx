@@ -20,9 +20,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
       <div>
-        <BrowserRouter>
-        <Routes>
-          <Route>
+        
         <Navbar/>
         <Hero/>
         <About/>
@@ -36,9 +34,7 @@ function App() {
         <Offerings/>
         <Ask/>
         <Contact/>
-        </Route>
-        </Routes>
-        </BrowserRouter>
+      
       </div>
   )
 }
