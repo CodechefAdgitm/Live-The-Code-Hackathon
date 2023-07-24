@@ -14,34 +14,39 @@ import Arvr from "./cmp/arvr.jsx";
 import Fintech from "./cmp/Fintech.jsx";
 import Carousel from "react-bootstrap/Carousel";
 import "./Themes.css";
+import AOS from 'aos';
+
 
 
 const themesData = [
-  { title: 'Theme 1', description: 'Description of Theme 1' },
-  { title: 'Theme 2', description: 'Description of Theme 2' },
-  { title: 'Theme 3', description: 'Description of Theme 3' },
-  { title: 'Theme 4', description: 'Description of Theme 4' },
-  { title: 'Theme 1', description: 'Description of Theme 1' },
-  { title: 'Theme 2', description: 'Description of Theme 2' },
-  { title: 'Theme 3', description: 'Description of Theme 3' },
-  { title: 'Theme 4', description: 'Description of Theme 4' },
-  // Add more themes as needed
+  { title: 'Open Innovation', description: 'Description of Theme 1' },
+  { title: 'EdTech', description: 'Description of Theme 2' },
+  { title: 'AR/VR', description: 'Description of Theme 3' },
+  { title: 'FinTech', description: 'Description of Theme 4' },
+  { title: 'Productivity & Networking', description: 'Description of Theme 1' },
+  { title: 'Healthcare', description: 'Description of Theme 2' },
+  { title: 'Web3', description: 'Description of Theme 3' },
+  
 ];
 
 export default function Themes() {
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
   return (
     <>
       <section className="themes">
-     
+      <div data-aos="fade-up">
       <div className="themes-container">
         {themesData.map((theme, index) => (
           <div className="theme-box" key={index}>
             <h3>{theme.title}</h3>
-            <p>{theme.description}</p>
           </div>
         ))}
       </div>
-      
+      </div>
     </section>
     </>
   );

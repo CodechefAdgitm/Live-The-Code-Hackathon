@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import ReactDOM from "react-dom/client";
 import './App.css'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
@@ -19,6 +20,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
       <div>
+        <BrowserRouter>
+        <Routes>
+          <Route>
         <Navbar/>
         <Hero/>
         <About/>
@@ -32,6 +36,9 @@ function App() {
         <Offerings/>
         <Ask/>
         <Contact/>
+        </Route>
+        </Routes>
+        </BrowserRouter>
       </div>
   )
 }

@@ -3,15 +3,17 @@ import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Rules.css";
-import codeImg from "../../assets/images/codeimg.jpg";
+import codeImg from "../../assets/images/codeimg.png";
+
+
 export default function Rules() {
   return (
-    <section className="participation-rules">
+    <section className="colorBlack">
+    <div className="participation-rules">
       <div className="image-container">
         <img src={codeImg} alt="hackathon" className="image" />
       </div>
       <div className="points-container">
-        <h2 className="heading">Participation Rules</h2>
         <ul className="rules-list">
           <li> Team size: 1-4 members</li>
           <li> Individual participation is allowed</li>
@@ -42,6 +44,7 @@ export default function Rules() {
           </li>
         </ul>
       </div>
+    </div>
     </section>
   );
 }

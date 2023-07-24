@@ -16,6 +16,7 @@ export default function Teams() {
     <section className="team">
       <h2>Meet Our Team</h2>
       <div className="container-team team_container">
+        <div data-aos="fade-up">
         <article className="team_member">
           <div className="team_member-image">
             <img src={img1}/>
@@ -30,6 +31,8 @@ export default function Teams() {
             <a href="#" target="_black"><FaTwitter/></a>
           </div>
         </article>
+        </div>
+        <div data-aos="fade-up">
         <article className="team_member">
           <div className="team_member-image">
             <img src={img2}/>
@@ -43,7 +46,9 @@ export default function Teams() {
             <a href="#" target="_black"><FaInstagram/></a>
             <a href="#" target="_black"><FaTwitter/></a>
           </div>
-        </article>        
+        </article>   
+        </div>   
+        <div data-aos="fade-up">  
         <article className="team_member">
           <div className="team_member-image">
             <img src={img3}/>
@@ -57,7 +62,10 @@ export default function Teams() {
             <a href="#" target="_black"><FaInstagram/></a>
             <a href="#" target="_black"><FaTwitter/></a>
           </div>
-        </article>        <article className="team_member">
+        </article>  
+        </div>
+        <div data-aos="fade-up">
+              <article className="team_member">
           <div className="team_member-image">
             <img src={img4}/>
           </div>
@@ -70,7 +78,10 @@ export default function Teams() {
             <a href="#" target="_black"><FaInstagram/></a>
             <a href="#" target="_black"><FaTwitter/></a>
           </div>
-        </article>        <article className="team_member">
+        </article>
+        </div>
+        <div data-aos="fade-up">
+          <article className="team_member">
           <div className="team_member-image">
             <img src={img5}/>
           </div>
@@ -83,7 +94,9 @@ export default function Teams() {
             <a href="#" target="_black"><FaInstagram/></a>
             <a href="#" target="_black"><FaTwitter/></a>
           </div>
-        </article>        <article className="team_member">
+        </article></div>        
+        <div data-aos="fade-up">
+        <article className="team_member">
           <div className="team_member-image">
             <img src={img6}/>
           </div>
@@ -96,7 +109,8 @@ export default function Teams() {
             <a href="#" target="_black"><FaInstagram/></a>
             <a href="#" target="_black"><FaTwitter/></a>
           </div>
-        </article>        
+        </article>        </div>
+        <div data-aos="fade-up">
         <article className="team_member">
           <div className="team_member-image">
             <img src={img7}/>
@@ -110,7 +124,9 @@ export default function Teams() {
             <a href="#" target="_black"><FaInstagram/></a>
             <a href="#" target="_black"><FaTwitter/></a>
           </div>
-        </article>        
+        </article>      
+        </div>
+        <div data-aos="fade-up">  
         <article className="team_member">
           <div className="team_member-image">
             <img src={img8}/>
@@ -125,6 +141,7 @@ export default function Teams() {
             <a href="#" target="_black"><FaTwitter/></a>
           </div>
         </article>
+        </div>
       </div>
     </section>
   );

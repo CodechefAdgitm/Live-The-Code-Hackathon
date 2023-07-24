@@ -2,7 +2,9 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import {FaInstagram, FaLinkedin, FaTwitter} from "react-icons/fa";
 import "./Contact.css";
+
 export default function Contact() {
   return (
     <>
@@ -16,9 +18,9 @@ export default function Contact() {
         <div className="footer-right">
           <h3>Follow Us</h3>
           <ul className="social-links">
-            <li><a href="https://facebook.com/hackathon" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://twitter.com/hackathon" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            <li><a href="https://instagram.com/hackathon" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://facebook.com/hackathon" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a></li>
+            <li><a href="https://twitter.com/hackathon" target="_blank" rel="noopener noreferrer"><FaInstagram/></a></li>
+            <li><a href="https://instagram.com/hackathon" target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
           </ul>
         </div>
       </div>
