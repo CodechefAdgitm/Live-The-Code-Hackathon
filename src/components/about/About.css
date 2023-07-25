@@ -79,4 +79,20 @@
     left: 0;
     right: 0;
   }
+
+  .colorPurple{
+    background-color: #6C63FF;
+  }
+
+  .about-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C63FF;
+    padding: 40px;
+    color: #fff;
+    flex-wrap: wrap; /* Allow the flex items to wrap on smaller screens */
+    max-width: 1300px; /* Limit the section's maximum width */
+    margin: 0 auto; /* Center the section horizontally */
+  }
   

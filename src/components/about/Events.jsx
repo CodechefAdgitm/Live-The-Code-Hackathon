@@ -11,7 +11,8 @@ export default function Events() {
     });
   }, []);
   return (
-    <div className="events heading">
+    <>
+    <div className="events">
       <h1>About Past Events</h1>
       <div className="timeline">
         <div className="container-event left-container">
@@ -93,5 +94,6 @@ export default function Events() {
         </div>
       </div>
     </div>
+    </>
   );
 }

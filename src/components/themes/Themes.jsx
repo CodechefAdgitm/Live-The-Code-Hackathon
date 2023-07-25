@@ -15,17 +15,19 @@ import Fintech from "./cmp/Fintech.jsx";
 import Carousel from "react-bootstrap/Carousel";
 import "./Themes.css";
 import AOS from 'aos';
+import {FaLightbulb, FaLinkedin, FaTwitter} from "react-icons/fa";;
+import {BsBook} from "react-icons/Bs";
 
 
 
 const themesData = [
-  { title: 'Open Innovation', description: 'Description of Theme 1' },
-  { title: 'EdTech', description: 'Description of Theme 2' },
-  { title: 'AR/VR', description: 'Description of Theme 3' },
-  { title: 'FinTech', description: 'Description of Theme 4' },
-  { title: 'Productivity & Networking', description: 'Description of Theme 1' },
-  { title: 'Healthcare', description: 'Description of Theme 2' },
-  { title: 'Web3', description: 'Description of Theme 3' },
+  { title: 'Open Innovation', icon: <FaLightbulb/> },
+  { title: 'EdTech', icon: <BsBook/> },
+  { title: 'AR/VR', icon: ""},
+  { title: 'FinTech', icon: 'Description of Theme 4' },
+  { title: 'Productivity & Networking', icon: 'Description of Theme 1' },
+  { title: 'Healthcare', icon: 'Description of Theme 2' },
+  { title: 'Web3', icon: 'Description of Theme 3' },
   
 ];
 
@@ -37,11 +39,13 @@ export default function Themes() {
   }, []);
   return (
     <>
-      <section className="themes">
+    <section className="themes">
       <div data-aos="fade-up">
       <div className="themes-container">
         {themesData.map((theme, index) => (
           <div className="theme-box" key={index}>
+            <div className="circleShape">{theme.icon}</div>
+
             <h3>{theme.title}</h3>
           </div>
         ))}
