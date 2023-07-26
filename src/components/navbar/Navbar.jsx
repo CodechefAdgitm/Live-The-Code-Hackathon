@@ -4,7 +4,7 @@ import "./navbar.css"
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="Navbarcontainer">
+      <div className="container">
         <a href="/" className="navbar-brand">Hackathon Site</a>
 
         <ul className="nav-links"> {/* Add the class for styling the navigation links in a single line */}

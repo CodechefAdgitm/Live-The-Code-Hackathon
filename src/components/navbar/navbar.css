@@ -8,20 +8,17 @@
   background-color: #222222;
   color: #fff;
   padding: 10px 0;
-  z-index: 100; /* Add z-index to ensure the navbar is above other elements */
 }
 
-.Navbarcontainer {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1300px; /* Add max-width to limit the container width */
-  margin: 0 auto; /* Center the container horizontally */
 }
 
+/* Add a new class to style the navigation links in a single line */
 .nav-links {
   display: flex;
-  align-items: center; /* Center the navigation links vertically */
 }
 
 .navbar-brand {
@@ -29,36 +26,19 @@
   font-weight: bold;
   color: #fff;
   text-decoration: none;
+  margin-right: 20px; /* Add some space between the brand and navigation links */
 }
 
 .nav-links li {
-  margin-left: 20px; /* Add some space between navigation links */
+  margin-right: 20px;
 }
 
 .nav-link {
   font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
-  position: relative; /* Add position relative for hover effect */
 }
 
-/* Add hover effect */
 .nav-link:hover {
   color: #A3CFCD;
-}
-
-/* Add media query for responsive navigation */
-@media screen and (max-width: 768px) {
-  .Navbarcontainer {
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the start */
-  }
-
-  .nav-links {
-    margin-top: 20px; /* Add some space between the brand and navigation links in mobile view */
-  }
-
-  .nav-links li {
-    margin: 10px 0;
-  }
 }
