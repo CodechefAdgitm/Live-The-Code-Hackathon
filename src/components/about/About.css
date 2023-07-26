@@ -95,4 +95,55 @@
     max-width: 1300px; /* Limit the section's maximum width */
     margin: 0 auto; /* Center the section horizontally */
   }
-  
+
+  /* ... Existing CSS code ... */
+
+.wrapper {
+  position: relative;
+}
+
+/* Add ::before and ::after pseudo-elements */
+.wrapper::before,
+.wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.wrapper::before {
+  left: -50px;
+  border-width: 70px 50px 0 0;
+  border-right-color: #6C63FF;
+}
+
+.wrapper::after {
+  right: -50px;
+  border-width: 70px 0 0 50px;
+  border-left-color: #6C63FF;
+}
+
+/* Add media query for responsive triangles */
+@media screen and (max-width: 768px) {
+  .wrapper::before,
+  .wrapper::after {
+    border-width: 50px 0;
+  }
+
+  .wrapper::before {
+    left: 0;
+    border-width: 50px 0 0 50px;
+    border-right-color: transparent;
+    border-top-color: #6C63FF;
+  }
+
+  .wrapper::after {
+    right: 0;
+    border-width: 0 50px 50px 0;
+    border-left-color: transparent;
+    border-bottom-color: #6C63FF;
+  }
+}

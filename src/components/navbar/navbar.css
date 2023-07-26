@@ -1,45 +1,64 @@
 /* ... Existing CSS code ... */
 
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #222222;
-    color: #fff;
-    padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222222;
+  color: #fff;
+  padding: 10px 0;
+  z-index: 100; /* Add z-index to ensure the navbar is above other elements */
+}
+
+.Navbarcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px; /* Add max-width to limit the container width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center; /* Center the navigation links vertically */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links li {
+  margin-left: 20px; /* Add some space between navigation links */
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  position: relative; /* Add position relative for hover effect */
+}
+
+/* Add hover effect */
+.nav-link:hover {
+  color: #A3CFCD;
+}
+
+/* Add media query for responsive navigation */
+@media screen and (max-width: 768px) {
+  .Navbarcontainer {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
   }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  /* Add a new class to style the navigation links in a single line */
+
   .nav-links {
-    display: flex;
+    margin-top: 20px; /* Add some space between the brand and navigation links in mobile view */
   }
-  
-  .navbar-brand {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-    margin-right: 20px; /* Add some space between the brand and navigation links */
-  }
-  
+
   .nav-links li {
-    margin-right: 20px;
+    margin: 10px 0;
   }
-  
-  .nav-link {
-    font-size: 1.2rem;
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
-    color: #A3CFCD;
-  }
-  
+}
