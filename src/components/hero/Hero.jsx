@@ -14,7 +14,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="right">
-          <img src={image} alt="an illustration" />
+          <img  src={image} alt="an illustration" />
         </div>
       </div>
     </>
