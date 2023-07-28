@@ -44,7 +44,7 @@
     margin-top: 20px;
   }
   
-  .heading {
+  /*.heading {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
     text-align: center;
     background-color: #000;
     height: 100vh;
-  }
+  } */
   
   .heading h1 {
     font-size: 70px;

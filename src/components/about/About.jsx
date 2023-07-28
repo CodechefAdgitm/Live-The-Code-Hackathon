@@ -5,13 +5,17 @@ import "./About.css";
 export default function About() {
   return (
     <section className="colorBlack">
-    <div className="participation-rules">
+ 
+<div className="heading"><h1>About</h1></div>
+      <div className="participation-rules">
+        
       <div className="about-image">
               <img src={aboutSvg} alt="About Us" />
             </div>
       <div className="points-container">
+          
         <ul className="rules-list">
-        <p>
+            <p>
                 We, CodeChef ADGITM chapter is a close-knit community of
                 diligent coders who come together and share best practices, new
                 coding accomplishments, and plenty of resources to become the
