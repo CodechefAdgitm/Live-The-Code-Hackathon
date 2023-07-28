@@ -1,4 +1,7 @@
-/* ... Existing CSS code ... */
+* {
+    font-family: poppins, sans-serif;
+}
+
 
 .navbar {
   position: fixed;
@@ -42,3 +45,221 @@
 .nav-link:hover {
   color: #A3CFCD;
 }
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    backdrop-filter: blur(60px);
+    background-color: #222222;
+    z-index: 1;
+    margin: 0px;
+}
+
+.head {
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    margin-left: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links-1 {
+    display: flex;
+    margin: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: auto;
+    padding: 0px;
+}
+
+.nav-links-2 {
+    display: none;
+    margin: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: auto;
+    padding: 0px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.nav-link:hover {
+    color: #A3CFCD;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: #A3CFCD;
+    text-decoration: underline;
+}
+
+.drop_menu {
+    opacity: 1;
+    width: 100%;
+    /* height: 100px; */
+    background-color: #222222;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    display: none;
+
+}
+
+.innermenu {
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+    border: 2px solid rgb(147, 147, 147);
+    border-radius: 30px;
+    width: 100%;
+}
+
+.drop-links {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.drop-links li {
+    margin-right: 0px;
+    list-style: none;
+}
+
+.drop-link {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.drop-link:hover {
+    color: #A3CFCD;
+    text-decoration: underline;
+}
+
+#dropmenu {
+    margin-left: auto;
+    display: none;
+}
+
+#innerdropmenu {
+    color: white;
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: 40px;
+    transition: all 500ms ease-in-out;
+    display: block;
+}
+
+@media only screen and (max-width: 850px) {
+    .nav-links-1 {
+        display: none;
+    }
+
+    .head {
+        font-size: 28px;
+    }
+
+    .nav-links-2 {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-links-2 {
+        display: none;
+    }
+
+
+    .drop-links {
+        padding-left: 0px;
+        ;
+    }
+
+    .head {
+        font-size: 24px;
+    }
+
+    .drop-item {
+        margin: 0px 20px;
+    }
+
+    .drop-link {
+        font-size: 1.2rem;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #dropmenu {
+        color: white;
+        font-size: 30px;
+        border-radius: 4px;
+        padding: 2px;
+        margin-left: auto;
+        margin-right: 40px;
+        transition: all 500ms ease-in-out;
+        display: block;
+    }
+
+    #innerdropmenu {
+        color: white;
+        font-size: 25px;
+        border-radius: 4px;
+        padding: 2px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: 20px;
+        transition: all 500ms ease-in-out;
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    #dropmenu {
+        margin-right: 20px;
+    }
+
+    #innerdropmenu {
+        margin-right: 10px;
+    }
+
+    .drop-item {
+        margin: 0px 15px;
+    }
+
+    .head {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+}
+  
