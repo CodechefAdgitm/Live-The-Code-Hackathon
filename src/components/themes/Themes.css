@@ -1,6 +1,6 @@
 .themes {
   padding: 80px 0;
-  background-color: #f0f0f0;
+  background-color: #6C63FF;
 }
 
 .themes-container {
@@ -40,4 +40,22 @@
 .theme-box p {
   font-size: 1rem;
   color: #222; /* Use dark gray (#222) for the description text color */
+}
+
+.circleShape {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Create a circular shape */
+  background-color: #553c94; /* Use the light blue color for the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+}
+
+.circleShape img {
+  max-width: 60%; /* Adjust the size of the icon to fit inside the circle */
+  max-height: 60%;
+  font-size: 26px;
+  color: yellow;
 }
