@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import './Navbar.css'
+import './navbar.css'
 // install react-icons library
 import { FaHome, FaPhone, FaThemeco, FaBars, FaUserFriends, FaInfo, FaInfoCircle, FaBath } from "react-icons/fa"
-export default function Header() {
+export default function Navbar() {
     const [status, set_status] = useState(false)
     function menu_act() {
         const menu = document.getElementById('Ham_menu')
