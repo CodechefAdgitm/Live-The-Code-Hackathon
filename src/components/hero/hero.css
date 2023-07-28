@@ -1,7 +1,10 @@
 .hero-section {
     background-color: #000;
-    padding: 60px 0;
-    text-align: center;
+    height: 80%; 
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+    padding: 4vw 4vw;
   }
   
   .hero-content {
@@ -28,22 +31,22 @@
   
   .apply-button,
   .register-button {
-    padding: 15px 30px;
-    font-size: 1.2rem;
+    padding: 1.5vw 2.5vw;
+    font-size: 1.2vw;
     font-weight: bold;
     border: none;
-    border-radius: 6px;
+    border-radius: 1vw;
     margin: 0 10px;
     cursor: pointer;
   }
   
   .apply-button {
-    background-color: #222222;
+    background-color: #6b5b95;
     color: #fff;
   }
   
   .apply-button:hover {
-    background-color: #444444;
+    background-color: #7a5b95;
   }
   
   .register-button {
@@ -55,4 +58,72 @@
   .register-button:hover {
     background-color: #f0f0f0;
   }
-  
+ 
+.left {
+  height: 100%;
+  width: 60%;
+  padding: 7vw 8vw;
+}
+
+.left h1 {
+  font-size: 4.5vw;
+  font-weight: 700;
+  line-height: 5vw;
+}
+
+.left h1 span {
+  color: #6b5b95;
+}
+
+.left p {
+  font-size: 20px;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+}
+
+.right {
+  height: 100%;
+  width: 40%;
+}
+
+.right img {
+}
+
+@media (max-width:650px) {
+  .hero-section {
+    height: 100%;
+    flex-direction: column;
+    padding: 4vw 5vw;
+  }
+  .left {
+    height: 50%;
+    width: 100%;
+    padding: 4vw 4vw;
+  }
+  .right {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .right img {
+    height: 100%;
+    width: 100%;
+  }
+  .left h1 {
+    font-size: 10vw;
+    line-height: 10vw;
+    margin-bottom: 5vw;
+  }
+  .left p {
+    font-size: 3.5vw;
+    margin-bottom: 8vw;
+  }
+  .apply-button {
+    font-size: 3.5vw;
+    padding: 4vw 6vw;
+    border-radius: 2.5vw;
+    font-weight: 600;
+  }
+}
