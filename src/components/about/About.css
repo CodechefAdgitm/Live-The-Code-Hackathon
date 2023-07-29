@@ -44,7 +44,7 @@
     margin-top: 20px;
   }
   
-  /*.heading {
+  /* .heading {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -53,20 +53,20 @@
     text-align: center;
     background-color: #000;
     height: 100vh;
-  } */
+  } 
   
-  .heading h1 {
+   .heading h1 {
     font-size: 70px;
     font-weight: 600;
     background-image: linear-gradient(to right, #6C63FF, #222222);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for better visibility
     margin-bottom: 45px;
     font-family: "Roboto Slab", serif;
-  }
-  
+  } 
+ 
   .heading h1::after {
     content: "";
     position: absolute;
@@ -78,7 +78,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-  }
+  } */
   
 =======
   max-width: 1300px;
@@ -133,7 +133,6 @@
   flex-direction: column;
   text-align: center;
   background-color: #000;
-  height: 100vh;
 }
 
 .heading h1 {

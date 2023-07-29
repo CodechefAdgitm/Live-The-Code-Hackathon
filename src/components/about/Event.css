@@ -7,6 +7,19 @@
     padding-bottom: 40px;
     height: 100%;
 }
+
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 4vw;
+}
+
+.heading h1 {
+
+  background-image: linear-gradient(to right, #6C63FF, #222222);
+}
 .timeline{
     position: relative;
     max-width: 1200px;

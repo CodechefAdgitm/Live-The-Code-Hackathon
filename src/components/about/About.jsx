@@ -4,18 +4,15 @@ import "./About.css";
 
 export default function About() {
   return (
-
     <section className="colorBlack">
- 
-<div className="heading"><h1>About</h1></div>
+      <div className="heading"><h1>About</h1></div>
       <div className="participation-rules">
-        
-      <div className="about-image">
-              <img src={aboutSvg} alt="About Us" />
-            </div>
-      <div className="points-container">
-          
-        <ul className="rules-list">
+        <div className="about-image">
+          <img src={aboutSvg} alt="About Us" />
+        </div>
+
+        <div className="points-container">
+          <ul className="rules-list">
             <p>
 
                 We, CodeChef ADGITM chapter is a close-knit community of
@@ -29,10 +26,10 @@ export default function About() {
                 community. We aim to create an awareness of the potency that
                 coding holds. Providing a great network and a nurturing
                 mentorship have always been our thriving forces.
-          </p>
-          </div>
+            </p>
+          </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
