@@ -14,7 +14,7 @@ import img8 from "../../assets/images/img8.png";
 export default function Teams() {
   return (
     <section className="team">
-       <div className="heading"><h2>Meet Our Team</h2></div>
+      <h2>Meet Our Team</h2>
       <div className="container-team team_container">
         <div data-aos="fade-up">
         <article className="team_member">
