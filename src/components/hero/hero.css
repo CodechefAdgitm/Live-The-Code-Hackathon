@@ -41,13 +41,23 @@
   }
   
   .apply-button {
+    font-size: 1.2vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 1vw;
+    margin-top: 1.5vw;
+    cursor: pointer;
+    bottom: 0; /* Position the button at the bottom of the hero-content */
+    left: 4vw; /* Adjust the left position as needed */
     background-color: #6b5b95;
     color: #fff;
+    padding: 1.2vw 1.5vw;
   }
   
   .apply-button:hover {
     background-color: #7a5b95;
   }
+  
   
   .register-button {
     background-color: #fff;
