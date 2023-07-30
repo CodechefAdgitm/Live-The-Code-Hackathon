@@ -11,7 +11,7 @@ export default function Prize() {
     <div>
       <div className="prize-section">
       <div className="sponsors-heading">
-          <h1>Prize</h1>
+      <div className="heading"><h2>Prize</h2></div>
         </div>
         <p>Coming soon</p>
         {/* <div className="container1">
