@@ -17,7 +17,7 @@ body{
 .prize-section .container1{
     padding: 0px 110px;
 }
-.prize-section h1{
+/* .prize-section h1{
     text-align: center;
     font-size: 85px;
     color:#fff;
@@ -26,9 +26,14 @@ body{
 
 .prize-section h2{
     font-size: 35px;
-    /* margin-bottom: 40px; */
-}
+    /* margin-bottom: 40px; }*/ 
 
+.prize-section h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
 .prize-section a{
     cursor: pointer;
     text-decoration: none;
@@ -39,6 +44,7 @@ body{
 .prize-section p{
     font-size: 23px;
     color: #fff;
+    text-align: center;
 }
 
 

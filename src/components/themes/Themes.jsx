@@ -16,7 +16,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "./Themes.css";
 import AOS from 'aos';
 import {FaLightbulb, FaLinkedin, FaTwitter} from "react-icons/fa";;
-import {BsBook} from "react-icons/Bs";
+import {BsBook} from "react-icons/bs";
 
 
 
