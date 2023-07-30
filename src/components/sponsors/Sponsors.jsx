@@ -18,8 +18,8 @@ const Sponsors = () => {
   return (
     <>
       <section className="sponsors">
-        <div className="sponsors-heading">
-          <h1>Sponsors & Partners</h1>
+        <div className="heading">
+          <h2>Sponsors & Partners</h2>
         </div>
         <p>Coming soon</p>
         {/* <div className="icons-container">

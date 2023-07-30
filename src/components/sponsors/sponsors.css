@@ -9,8 +9,15 @@
   .sponsors h1 {
     text-align: center;
     font-size: 50px;
-    color: #fff;
+    color: #6B5B95;
     margin-bottom: 40px;
+  }
+  .heading h2{
+    color: #6B5B95;
+    text-align: center;
+    padding: 5rem;
+    font-weight: 700;
+    font-size: 40px;
   }
   
   .sponsors p{
