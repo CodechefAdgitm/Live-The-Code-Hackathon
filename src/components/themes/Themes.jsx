@@ -15,21 +15,19 @@ import Fintech from "./cmp/Fintech.jsx";
 import Carousel from "react-bootstrap/Carousel";
 import "./Themes.css";
 import AOS from 'aos';
-import {FaLightbulb, FaMoneyCheck, FaTwitter} from "react-icons/fa";;
+import {FaLightbulb, FaLinkedin, FaTwitter} from "react-icons/fa";;
 import {BsBook} from "react-icons/bs";
-import {GiHealthNormal} from "react-icons/gi";
-import {SiHiveBlockchain} from "react-icons/si";
-import {BiNetworkChart} from "react-icons/bi";
-import {PiVirtualRealityLight} from "react-icons/pi";
+
+
 
 const themesData = [
   { title: 'Open Innovation', icon: <FaLightbulb/> },
   { title: 'EdTech', icon: <BsBook/> },
-  { title: 'AR/VR', icon: <PiVirtualRealityLight/>},
-  { title: 'FinTech', icon: <FaMoneyCheck/> },
-  { title: 'Productivity & Networking', icon: <BiNetworkChart/> },
-  { title: 'Healthcare', icon: <GiHealthNormal/> },
-  { title: 'Web3', icon: <SiHiveBlockchain/> },
+  { title: 'AR/VR', icon: ""},
+  { title: 'FinTech', icon: 'Description of Theme 4' },
+  { title: 'Productivity & Networking', icon: 'Description of Theme 1' },
+  { title: 'Healthcare', icon: 'Description of Theme 2' },
+  { title: 'Web3', icon: 'Description of Theme 3' },
   
 ];
 
@@ -42,7 +40,6 @@ export default function Themes() {
   return (
     <>
     <section className="themes">
-    <div className="heading"><h2>Themes</h2></div>
       <div data-aos="fade-up">
       <div className="themes-container">
         {themesData.map((theme, index) => (
