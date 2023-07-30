@@ -3,17 +3,42 @@ import "./Ask.css";
 
 const faqData = [
   {
-    question: "Question 1",
-    answer: "Answer to Question 1",
+    question: "What is a Hackathon",
+    answer: `Hackathons are community events, where you get to interact with students from all around the world as well as forming teams to create future tech.`,
   },
   {
-    question: "Question 2",
-    answer: "Answer to Question 2",
+    question: "I have no idea what coding is",
+    answer: "Thats why you must attend our event, we will guide you through everything with awesome workshops,tech talk and many more",
   },
   {
-    question: "Question 3",
-    answer: "Answer to Question 3",
+    question: "Do I need to pay any money ",
+    answer: "Absolutely not ! our event is free and open for all , if incase anyone asks for money you can dm any of our moderator.",
   },
+  {
+    question: "What are the conduct of guidlines ",
+    answer: "We strongly follow the DEVFOLIO code of conduct, Our team members will enforce this code throughout the event.",
+  },
+  {
+    question: "Is it necessary to form the team of 4 students",
+    answer: "No the team can range from 2 to 4 members.",
+  },
+  {
+    question: "How to participate",
+    answer: "All you need is to fill our form above and we will guide you through everything in email.",
+  },
+  {
+    question: "I have more doubts",
+    answer: "Reach us directly at (codechefadgitmchapter@gmail.com) we would happy to help you.",
+  },
+  {
+    question: "Is the registration open to all colleges",
+    answer: "Yes, it's open to all engineering/ polytechnic/ science colleges.",
+  },
+  {
+    question: "Can the team member be from the different college",
+    answer: "Yes, all members can be from different colleges, departments and years.",
+  },
+  
   // Add more FAQ items here
 ];
 
