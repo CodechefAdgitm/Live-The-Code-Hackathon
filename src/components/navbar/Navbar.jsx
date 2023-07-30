@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RxCross1 } from "react-icons/Rx";
+
 import { FiMenu } from "react-icons/fi";
 import "./navbar.css";
 
@@ -38,7 +38,7 @@ export default function Navbar() {
 
         {/* Hamburger menu icon */}
         <div className="hamburger-menu" onClick={handleMenuClick}>
-          {showMenu ? <RxCross1 /> : <FiMenu />}
+          <FiMenu />
         </div>
       </div>
     </nav>
