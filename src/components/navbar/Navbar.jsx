@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <a href="/" className="navbar-brand">Hackathon Site</a>
+        <a href="/" className="navbar-brand">Live the code Hackathon</a>
 
         <ul className="nav-links"> {/* Add the class for styling the navigation links in a single line */}
           <li className="nav-item">
