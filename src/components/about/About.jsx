@@ -5,7 +5,7 @@ import "./About.css";
 export default function About() {
   return (
     <section className="colorBlack">
-      <div className="heading"><h1>About</h1></div>
+      <div className="heading"><h2>About</h2></div>
       <div className="participation-rules">
         <div className="about-image">
           <img src={aboutSvg} alt="About Us" />
