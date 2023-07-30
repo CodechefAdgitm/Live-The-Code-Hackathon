@@ -79,3 +79,11 @@
     margin-left: 0;
   }
 }
+
+.heading h2 {
+  color: #6B5B95;
+  text-align: center;
+  padding: 5rem;
+  font-weight: 700;
+  font-size: 40px;
+}

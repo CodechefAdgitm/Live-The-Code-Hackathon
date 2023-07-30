@@ -55,9 +55,8 @@ const Ask = () => {
 
   return (
     <section className="faq-section">
-      <div className="heading">
-        <h1>Frequently Asked Questions</h1>
-      </div>
+       <div className="heading"><h2>Frequently Asked Questions</h2></div>
+    
       <div className="faq-container">
         {faqData.map((item, index) => (
           <div
