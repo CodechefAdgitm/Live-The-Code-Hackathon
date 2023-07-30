@@ -1,85 +1,12 @@
 /* Add the color template */
 .about {
-    max-width: 1300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
-    padding: 80px 0;
-  }
-  
-  .about-image img {
-    width: 400px; /* Adjust the image size as needed */
-    max-width: 100%; /* Ensure the image stays within its container */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: 0.5s ease; /* Add transition for hover effect */
-  }
-  
-  .about-image:hover img {
-    transform: scale(1.2); /* Apply hover effect to scale the image */
-  }
-  
-  .about-content {
-    flex: 1; /* Take available space */
-    padding-left: 20px;
-  }
-  
-  .about-content h2 {
-    font-size: 40px; /* Adjust the heading size */
-    margin-bottom: 15px;
-    color: #fff;
-  }
-  
-  .about-content span {
-    color: #6C63FF;
-    font-weight: 700;
-    font-size: 40px;
-  }
-  
-  .about-content p {
-    font-size: 19px;
-    line-height: 1.5;
-    color: #7A7A7A;
-    margin-top: 20px;
-  }
-  
-  /* .heading {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: #000;
-    height: 100vh;
-  } 
-  
-   .heading h1 {
-    font-size: 70px;
-    font-weight: 600;
-    background-image: linear-gradient(to right, #6C63FF, #222222);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for better visibility
-    margin-bottom: 45px;
-    font-family: "Roboto Slab", serif;
-  } 
- 
-  .heading h1::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    display: block;
-    margin: 0 auto;
-    background-color: #6C63FF;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  } */
-  
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  padding: 80px 0;
+}
 
 .about-image img {
   width: 400px; /* Adjust the image size as needed */
@@ -117,7 +44,7 @@
   margin-top: 20px;
 }
 
-.heading {
+/* .heading {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -125,19 +52,20 @@
   flex-direction: column;
   text-align: center;
   background-color: #000;
-}
+  height: 100vh;
+} 
 
-.heading h1 {
+ .heading h1 {
   font-size: 70px;
   font-weight: 600;
   background-image: linear-gradient(to right, #6C63FF, #222222);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for better visibility */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for better visibility
   margin-bottom: 45px;
   font-family: "Roboto Slab", serif;
-}
+} 
 
 .heading h1::after {
   content: "";
@@ -150,22 +78,36 @@
   bottom: 0;
   left: 0;
   right: 0;
+} */
+
+.heading h2 {
+
+  text-align: center;
+  padding: 5rem;
+  font-weight: 700;
+  font-size: 40px;
 }
 
+.team_member-info h4 {
+  color: #fff;
+  font-weight: 500;
+}
+
+
 .colorPurple{
-  background-color: #6C63FF;
+background-color: #6C63FF;
 }
 
 .about-sec{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #6C63FF;
-  padding: 40px;
-  color: #fff;
-  flex-wrap: wrap; /* Allow the flex items to wrap on smaller screens */
-  max-width: 1300px; /* Limit the section's maximum width */
-  margin: 0 auto; /* Center the section horizontally */
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #6C63FF;
+padding: 40px;
+color: #fff;
+flex-wrap: wrap; /* Allow the flex items to wrap on smaller screens */
+max-width: 1300px; /* Limit the section's maximum width */
+margin: 0 auto; /* Center the section horizontally */
 }
 
 /* ... Existing CSS code ... */
@@ -202,21 +144,21 @@ border-left-color: #6C63FF;
 @media screen and (max-width: 768px) {
 .wrapper::before,
 .wrapper::after {
-  border-width: 50px 0;
+border-width: 50px 0;
 }
 
 .wrapper::before {
-  left: 0;
-  border-width: 50px 0 0 50px;
-  border-right-color: transparent;
-  border-top-color: #6C63FF;
+left: 0;
+border-width: 50px 0 0 50px;
+border-right-color: transparent;
+border-top-color: #6C63FF;
 }
 
 .wrapper::after {
-  right: 0;
-  border-width: 0 50px 50px 0;
-  border-left-color: transparent;
-  border-bottom-color: #6C63FF;
+right: 0;
+border-width: 0 50px 50px 0;
+border-left-color: transparent;
+border-bottom-color: #6C63FF;
 }
 }
 
