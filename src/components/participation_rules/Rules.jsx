@@ -9,13 +9,10 @@ import codeImg from "../../assets/images/codeimg.png";
 export default function Rules() {
   return (
     <section className="colorBlack">
-       <div className="heading"><h2>Participation Rules</h2></div>
     <div className="participation-rules">
-
       <div className="image-container">
         <img src={codeImg} alt="hackathon" className="image" />
       </div>
-      
       <div className="points-container">
         <ul className="rules-list">
           <li> Team size: 1-4 members</li>

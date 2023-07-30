@@ -1,6 +1,6 @@
 .themes {
   padding: 80px 0;
-  background-color: #000;
+  background-color: #6C63FF;
 }
 
 .themes-container {
@@ -14,7 +14,7 @@
 
 .theme-box {
   flex: 0 0 calc(33.33% - 20px); /* Each box takes one-third of the container width with 20px gap */
-  background-color: #222222;
+  background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -29,35 +29,33 @@
 
 .theme-box h3 {
   font-size: 1.5rem;
-  color: #fff; /* Use black (#000) for the heading text color */
+  color: #000; /* Use black (#000) for the heading text color */
   margin-bottom: 10px;
 }
 
-.theme-box .circleShape {
+.theme-box img {
+  width: 80px; /* Adjust the size of the icon */
+}
+
+.theme-box p {
+  font-size: 1rem;
+  color: #222; /* Use dark gray (#222) for the description text color */
+}
+
+.circleShape {
   width: 80px;
   height: 80px;
   border-radius: 50%; /* Create a circular shape */
-  background-color: #6B5B95; /* Use dark gray (#222) for the circle background */
+  background-color: #553c94; /* Use the light blue color for the circle */
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto 15px;
-  color: #fff; /* Use white (#fff) for the icon color */
 }
 
-.theme-box .circleShape svg {
-  font-size: 36px;
-}
-
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-  .theme-box {
-    flex: 0 0 calc(50% - 20px); /* Change the box width to half on smaller screens */
-  }
-}
-
-@media (max-width: 576px) {
-  .theme-box {
-    flex: 0 0 calc(100% - 20px); /* Change the box width to full on even smaller screens */
-  }
+.circleShape img {
+  max-width: 60%; /* Adjust the size of the icon to fit inside the circle */
+  max-height: 60%;
+  font-size: 26px;
+  color: yellow;
 }

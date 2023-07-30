@@ -14,7 +14,7 @@ export default function Events() {
   return (
     <>
       <div className="events">
-        <div className="heading"><h2>Event Timeline</h2></div>
+        <div className="heading"><h1>Event Timeline</h1></div>
         <div className="timeline">
           <div className="container-event left-container">
             <img src={logo} />
