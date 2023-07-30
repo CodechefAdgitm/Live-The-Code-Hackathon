@@ -9,10 +9,12 @@ import simple from './images/simple.png';
 export default function Prize() {
   return (
     <div>
-      <>
       <div className="prize-section">
-        <h1>Prize Section</h1>
-        <div className="container1">
+      <div className="sponsors-heading">
+          <h1>Prize</h1>
+        </div>
+        <p>Coming soon</p>
+        {/* <div className="container1">
             <div className="prize1 prize">
                 <div className="first-cup rotate">
                     <img src={trophy} alt=""/>
@@ -130,10 +132,8 @@ export default function Prize() {
                 <h2>More Prizes</h2>
                 <a href="">T&C</a>
                 <p>More prizes will be revealed soon..</p>
-            </div>  
+            </div>   */}
         </div>
-      </div>
-      </>
     </div>
   )
 }
