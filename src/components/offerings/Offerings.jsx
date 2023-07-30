@@ -8,6 +8,7 @@ import "./Offerings.css";
 export default function Offerings  () {
   return (
     <section className="colorBlack">
+       <div className="heading"><h2>Our Offerings</h2></div>
     <div className="participation-rules">
       <div className="image-container">
         <img src={codeImg} alt="hackathon" className="image" />
