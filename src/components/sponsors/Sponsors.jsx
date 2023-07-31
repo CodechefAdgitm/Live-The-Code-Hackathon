@@ -10,9 +10,13 @@ import eight from '../prize_section/images/8.png';
 import nine from '../prize_section/images/9.png';
 import ten from '../prize_section/images/10.jpg';
 import elev from '../prize_section/images/11.png';
+import Replit from "../prize_section/images/Replit.jpg"
+import Solana from "../prize_section/images/Solana.webp"
 import "./sponsors.css";
 
-const sponsorsData = [one, two, three, four, five, six, sev, eight, nine, ten, elev];
+// const sponsorsData = [one, two, three, four, five, six, sev, eight, nine, ten, elev];
+const sponsorsData = [two, four,  eight,Replit,Solana];
+
 
 const Sponsors = () => {
   return (
@@ -21,8 +25,8 @@ const Sponsors = () => {
         <div className="heading">
           <h2>Sponsors & Partners</h2>
         </div>
-        <p>Coming soon</p>
-        {/* <div className="icons-container">
+        {/* <p>Coming soon</p> */}
+        <div className="icons-container">
           {sponsorsData.map((sponsor, index) => (
             <div
               key={index}
@@ -30,7 +34,7 @@ const Sponsors = () => {
               style={{ backgroundImage: `url(${sponsor})` }}
             ></div>
           ))}
-        </div> */}
+        </div>
       </section>
     </>
   );
