@@ -1,64 +1,68 @@
 .hero-section {
-    background-color: #000;
-    height: 80%; 
-    width: 100%;
-    display: flex;
-    color: #ffffff;
-    padding: 4vw 4vw;
-  }
-  
-  .hero-content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: #222222;
-  }
-  
-  .hero-content p {
-    font-size: 1.5rem;
-    color: #444444;
-    margin-bottom: 30px;
-  }
-  
-  .action-buttons {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .apply-button,
-  .register-button {
-    padding: 1.5vw 2.5vw;
-    font-size: 1.2vw;
-    font-weight: bold;
-    border: none;
-    border-radius: 1vw;
-    margin: 0 10px;
-    cursor: pointer;
-  }
-  
-  .apply-button {
-    background-color: #6b5b95;
-    color: #fff;
-  }
-  
-  .apply-button:hover {
-    background-color: #7a5b95;
-  }
-  
-  .register-button {
-    background-color: #fff;
-    color: #222222;
-    border: 2px solid #222222;
-  }
-  
-  .register-button:hover {
-    background-color: #f0f0f0;
-  }
- 
+  background-color: #000;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  color: #ffffff;
+  padding: 4vw 4vw;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #222222;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  color: #444444;
+  margin-bottom: 30px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.action-buttons a {
+  text-decoration: none;
+}
+
+.apply-button,
+.register-button {
+  padding: 1.5vw 2.5vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+  border: none;
+  border-radius: 1vw;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.apply-button {
+  background-color: #6b5b95;
+  color: #fff;
+}
+
+.apply-button:hover {
+  background-color: #7a5b95;
+}
+
+.register-button {
+  background-color: #fff;
+  color: #222222;
+  border: 2px solid #222222;
+}
+
+.register-button:hover {
+  background-color: #f0f0f0;
+}
+
 .left {
   height: 100%;
   width: 60%;
@@ -86,10 +90,10 @@
   width: 40%;
 }
 
-.right img {
-}
+/* .right img {
+} */
 
-@media (max-width:650px) {
+@media (max-width: 650px) {
   .hero-section {
     height: 100%;
     flex-direction: column;
