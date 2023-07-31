@@ -11,7 +11,7 @@ import nine from '../prize_section/images/9.png';
 import ten from '../prize_section/images/10.jpg';
 import elev from '../prize_section/images/11.png';
 import Replit from "../prize_section/images/Replit.jpg"
-import Solana from "../prize_section/images/Solana.webp"
+import Solana from "../prize_section/images/Solana.png"
 import "./sponsors.css";
 
 // const sponsorsData = [one, two, three, four, five, six, sev, eight, nine, ten, elev];
