@@ -28,16 +28,20 @@ export default function Hero() {
             community driving positive change. Let's hack together!
           </p>
           <div className="action-buttons">
-            {/* <button className="apply-button">Apply Now</button> */}
-            <div
+            {/* <button className="apply-button" >Apply With Devfolio</button> */}
+            {/* <div
               className="apply-button"
               data-hackathon-slug="Live The Code"
               data-button-theme="dark"
               style={{ height: "44px", width: "312px" }}
-              // dangerouslySetInnerHTML={{
-              //   __html: `<!-- Your content will be replaced with the Devfolio Apply Button -->`,
-              // }}
-            ></div>
+            ></div> */}
+            <a
+              className="apply-button"
+              target="_blank"
+              href="https://devfolio.co/@codechefadgitm"
+            >
+              Apply With Devfolio
+            </a>
           </div>
         </div>
         <div className="right">
