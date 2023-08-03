@@ -35,22 +35,18 @@
 
 .apply-button,
 .register-button {
-  padding: 1.5vw 2.5vw;
   font-size: 1.2vw;
-  font-weight: bold;
-  border: none;
-  border-radius: 1vw;
   margin: 0 10px;
   cursor: pointer;
 }
 
 .apply-button {
-  background-color: #6b5b95;
-  color: #fff;
+  /* background-color: #6b5b95;
+  color: #fff; */
 }
 
 .apply-button:hover {
-  background-color: #7a5b95;
+  /* background-color: #7a5b95; */
 }
 
 .register-button {
