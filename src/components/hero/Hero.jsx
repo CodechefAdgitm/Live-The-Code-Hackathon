@@ -27,7 +27,7 @@ export default function Hero() {
             shape the future. Unleash y our potential and be part of a vibrant
             community driving positive change. Let&apos;s hack together!
           </p>
-          <div className="temp-button">
+          <div className="temp-button"> 
             <a
               // className="apply-button"
               target="_blank"

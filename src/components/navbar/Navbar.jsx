@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <a href="/" className="navbar-brand" style={{color:"white"}}>Live the code Hackathon</a>
+        <a href="/" className="navbar-brand" style={{color:"white"}}>Live the code 2.0</a>
 
         <ul className="nav-links"> {/* Add the class for styling the navigation links in a single line */}
           <li className="nav-item">
