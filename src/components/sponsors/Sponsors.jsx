@@ -15,6 +15,7 @@ import Solana from "../prize_section/images/Solana.png"
 import "./sponsors.css";
 
 // const sponsorsData = [one, two, three, four, five, six, sev, eight, nine, ten, elev];
+//alt tag
 const sponsorsData =  [
   { src: two, alt: "Sponsor 1" },
   { src: four, alt: "Sponsor 2" },
