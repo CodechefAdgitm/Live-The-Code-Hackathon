@@ -1,27 +1,28 @@
 import React from 'react';
 import one from '../prize_section/images/1.png';
-import two from '../prize_section/images/2.png';
+import two from '../prize_section/images/devfolio.png';
 import three from '../prize_section/images/3.png';
-import four from '../prize_section/images/4.png';
+import four from '../prize_section/images/filcoin.png';
 import five from '../prize_section/images/5.jpg';
 import six from '../prize_section/images/6.png';
 import sev from '../prize_section/images/7.png';
-import eight from '../prize_section/images/8.png';
+import eight from '../prize_section/images/polygon.png';
 import nine from '../prize_section/images/9.png';
 import ten from '../prize_section/images/10.jpg';
 import elev from '../prize_section/images/11.png';
-import Replit from "../prize_section/images/Replit.jpg"
-import Solana from "../prize_section/images/Solana.png"
+import Replit from "../prize_section/images/repl.png"
+import Solana from "../prize_section/images/solana.png"
 import "./sponsors.css";
 
 // const sponsorsData = [one, two, three, four, five, six, sev, eight, nine, ten, elev];
 //alt tag
 const sponsorsData =  [
-  { src: two, alt: "Sponsor 1" },
-  { src: four, alt: "Sponsor 2" },
-  { src: eight, alt: "Sponsor 3" },
-  { src: Replit, alt: "Replit" },
-  { src: Solana, alt: "Solana" },
+  { src: two, alt: "DEVFOLIO LOGO" },
+  { src: eight, alt: "POLYGON LOGO" },
+  { src: Solana, alt: "SOLANA LOGO" },
+  { src: four, alt: "FILECOIN LOGO" },
+  { src: Replit, alt: "REPLIT LOGO" },
+  
 ];
 
 
