@@ -17,11 +17,11 @@ import "./sponsors.css";
 // const sponsorsData = [one, two, three, four, five, six, sev, eight, nine, ten, elev];
 //alt tag
 const sponsorsData =  [
-  { src: two, alt: "Sponsor 1" },
-  { src: four, alt: "Sponsor 2" },
-  { src: eight, alt: "Sponsor 3" },
-  { src: Replit, alt: "Replit" },
-  { src: Solana, alt: "Solana" },
+  { src: two, alt: "DEVFOLIO LOGO" },
+  { src: four, alt: "FILECOIN LOGO" },
+  { src: eight, alt: "POLYGON LOGO" },
+  { src: Replit, alt: "REPLIT LOGO" },
+  { src: Solana, alt: "SOLANA LOGO" },
 ];
 
 
