@@ -39,10 +39,10 @@ export default function Hero() {
             </a>
           </div>
           <div className="action-buttons">
-            <div
+            <div  
               className="apply-button"
-              data-hackathon-slug="Live-The-Code-Hackathon"
-              data-button-theme="dark"
+              data-hackathon-slug="live-the-code"
+              data-button-theme="dark-inverted"
               style={{ height: "44px", width: "312px" }}
             ></div>
           </div>
