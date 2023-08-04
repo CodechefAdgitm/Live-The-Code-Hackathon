@@ -15,7 +15,14 @@ import Solana from "../prize_section/images/Solana.png"
 import "./sponsors.css";
 
 // const sponsorsData = [one, two, three, four, five, six, sev, eight, nine, ten, elev];
-const sponsorsData = [two, four,  eight,Replit,Solana];
+//alt tag
+const sponsorsData =  [
+  { src: two, alt: "DEVFOLIO LOGO" },
+  { src: four, alt: "FILECOIN LOGO" },
+  { src: eight, alt: "POLYGON LOGO" },
+  { src: Replit, alt: "REPLIT LOGO" },
+  { src: Solana, alt: "SOLANA LOGO" },
+];
 
 
 const Sponsors = () => {
@@ -29,10 +36,11 @@ const Sponsors = () => {
         <div className="icons-container">
           {sponsorsData.map((sponsor, index) => (
             <div
-              key={index}
-              className="icon"
-              style={{ backgroundImage: `url(${sponsor})` }}
-            ></div>
+            key={index}
+            className="icon"
+            style={{ backgroundImage: `url(${sponsor.src})` }}
+            alt={sponsor.alt}
+          ></div>
           ))}
         </div>
       </section>
