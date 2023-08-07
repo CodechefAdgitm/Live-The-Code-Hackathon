@@ -13,8 +13,11 @@ export default function Hero() {
       document.body.removeChild(script);
     };
   }, []);
+
   return (
     <>
+  
+
       <div className="hero-section">
         <div className="left">
           <h1>
