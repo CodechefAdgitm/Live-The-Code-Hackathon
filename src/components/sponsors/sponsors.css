@@ -7,6 +7,7 @@
   }
   
   .sponsors h1 {
+    font-family: 'IBM Plex Mono', monospace;
     text-align: center;
     font-size: 50px;
     color: #fff;
@@ -14,6 +15,7 @@
   }
   
   .sponsors p{
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 23px;
     color: #fff;
     text-align: center;

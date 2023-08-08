@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { RandomReveal } from "react-random-reveal";
 import "./hero.css";
 import image from "../../assets/images/22635333_6583017.svg";
 
@@ -12,20 +13,19 @@ export default function Hero() {
     return () => {
       document.body.removeChild(script);
     };
+    
   }, []);
 
   return (
     <>
-  
-
       <div className="hero-section">
         <div className="left">
-          <h1>
-            Welcome To <br />
-            Live the code<span>Hackathon</span>
+        <h1><span>
+        <RandomReveal isPlaying duration={3} characters="Welcome To Live the code Hackathon" />
+        </span>
           </h1>
           <p>
-            a weekend of innovation and creativity awaits! Join us for
+            A weekend of innovation and creativity awaits! Join us for
             electrifying challenges, collaborative brilliance, and the chance to
             shape the future. Unleash y our potential and be part of a vibrant
             community driving positive change. Let&apos;s hack together!
