@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="colorBlack">
       <div className="heading"><h2>About</h2></div>
-      <div className="participation-rules">
+      <div id="wrapper" className="participation-rules">
         <div className="about-image">
           <img src={aboutSvg} alt="About Us" />
         </div>

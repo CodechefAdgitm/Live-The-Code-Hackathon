@@ -24,7 +24,7 @@ export default function Hero() {
         <RandomReveal isPlaying duration={3} characters="Welcome To Live the code Hackathon" />
         </span>
           </h1>
-          <p>
+          <p className="hero-para">
             A weekend of innovation and creativity awaits! Join us for
             electrifying challenges, collaborative brilliance, and the chance to
             shape the future. Unleash y our potential and be part of a vibrant

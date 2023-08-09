@@ -1,63 +1,69 @@
 /* Color Theme */
 :root {
-    --primary-color: #6B5B95; /* Dark Purple */
-    --secondary-color: #222222; /* Dark Gray */
-    --accent-color: #6C63FF; /* Vibrant Blue */
-    --background-color: #000; /* Light Gray */
-  }
-  
-  /* FAQ Section */
-  .faq-section {
-    background-color: var(--background-color);
-    padding: 40px;
-  }
-  
-  .heading {
-    text-align: center;
-    margin-bottom: 20px;
-    color: var(--primary-color);
-  }
-  
-  .faq-container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .faq-item {
-    border: 1px solid var(--secondary-color);
-    border-radius: 4px;
-    padding: 20px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background-color: #222; /* Default background color for items */
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
-  }
-  
-  .faq-item.active {
-    background-color: var(--primary-color); /* Active item background color */
-    border-color: var(--primary-color); /* Active item border color */
-  }
-  
-  .question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-  }
-  
-  .arrow-icon {
-    font-size: 20px;
-    color: var(--primary-color); /* Arrow icon color */
-  }
-  
-  .answer {
-    display: none;
-    margin-top: 10px;
-    color: var(--primary-color); /* Answer text color */
-  }
-  
-  .faq-item.active .answer {
-    display: block;
-    color: #fff; /* Answer text color for active item */
-  }
-  
+  --primary-color: #6b5b95; /* Dark Purple */
+  --secondary-color: #222222; /* Dark Gray */
+  --accent-color: #6c63ff; /* Vibrant Blue */
+  --background-color: #000; /* Light Gray */
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: var(--background-color);
+  padding: 40px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.heading h2{
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 900;
+}
+
+.faq-item {
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #222; /* Default background color for items */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.faq-item.active {
+  background-color: var(--primary-color); /* Active item background color */
+  border-color: var(--primary-color); /* Active item border color */
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+}
+
+.arrow-icon {
+  font-size: 20px;
+  color: var(--primary-color); /* Arrow icon color */
+}
+
+.answer {
+  display: none;
+  margin-top: 10px;
+  color: var(--primary-color); /* Answer text color */
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.faq-item.active .answer {
+  display: block;
+  color: #fff; /* Answer text color for active item */
+}

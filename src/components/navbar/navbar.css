@@ -2,48 +2,53 @@
   font-family: poppins, sans-serif;
 }
 
-
 .navbar {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-background-color: #222222;
-color: #fff;
-padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222222;
+  color: #fff;
+  padding: 10px 0;
 }
 
 .container {
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Add a new class to style the navigation links in a single line */
 .nav-links {
-display: flex;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navbar-brand {
-font-size: 1.8rem;
-font-weight: bold;
-color: #fff;
-text-decoration: none;
-margin-right: 20px; /* Add some space between the brand and navigation links */
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px; /* Add some space between the brand and navigation links */
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 900;
 }
 
 .nav-links li {
-margin-right: 20px;
+  margin-right: 20px;
 }
 
 .nav-link {
-font-size: 1.2rem;
-color: #fff;
-text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
 }
 
 .nav-link:hover {
-color: #A3CFCD;
+  color: #a3cfcd;
 }
 #header {
   position: fixed;
@@ -105,12 +110,12 @@ a {
 }
 
 .nav-link:hover {
-  color: #A3CFCD;
+  color: #a3cfcd;
   text-decoration: underline;
 }
 
 .nav-link:hover {
-  color: #A3CFCD;
+  color: #a3cfcd;
   text-decoration: underline;
 }
 
@@ -127,7 +132,6 @@ a {
   align-items: center;
   justify-content: center;
   display: none;
-
 }
 
 .innermenu {
@@ -159,7 +163,7 @@ a {
 }
 
 .drop-link:hover {
-  color: #A3CFCD;
+  color: #a3cfcd;
   text-decoration: underline;
 }
 
@@ -182,83 +186,80 @@ a {
 
 @media only screen and (max-width: 850px) {
   .nav-links-1 {
-      display: none;
+    display: none;
   }
 
   .head {
-      font-size: 28px;
+    font-size: 28px;
   }
 
   .nav-links-2 {
-      display: flex;
+    display: flex;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .nav-links-2 {
-      display: none;
+    display: none;
   }
 
-
   .drop-links {
-      padding-left: 0px;
-      ;
+    padding-left: 0px;
   }
 
   .head {
-      font-size: 24px;
+    font-size: 24px;
   }
 
   .drop-item {
-      margin: 0px 20px;
+    margin: 0px 20px;
   }
 
   .drop-link {
-      font-size: 1.2rem;
-      color: #fff;
-      text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
   }
 
   #dropmenu {
-      color: white;
-      font-size: 30px;
-      border-radius: 4px;
-      padding: 2px;
-      margin-left: auto;
-      margin-right: 40px;
-      transition: all 500ms ease-in-out;
-      display: block;
+    color: white;
+    font-size: 30px;
+    border-radius: 4px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: 40px;
+    transition: all 500ms ease-in-out;
+    display: block;
   }
 
   #innerdropmenu {
-      color: white;
-      font-size: 25px;
-      border-radius: 4px;
-      padding: 2px;
-      margin: 0px;
-      margin-left: auto;
-      margin-right: 20px;
-      transition: all 500ms ease-in-out;
-      display: block;
+    color: white;
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 2px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: 20px;
+    transition: all 500ms ease-in-out;
+    display: block;
   }
-
 }
 
 @media only screen and (max-width: 300px) {
   #dropmenu {
-      margin-right: 20px;
+    margin-right: 20px;
   }
 
   #innerdropmenu {
-      margin-right: 10px;
+    margin-right: 10px;
   }
 
   .drop-item {
-      margin: 0px 15px;
+    margin: 0px 15px;
   }
 
   .head {
-      font-size: 22px;
-      margin-left: 15px;
+    font-size: 22px;
+    margin-left: 15px;
   }
 }

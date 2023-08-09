@@ -54,6 +54,8 @@
   margin-bottom: 10px;
   display: flex;
   align-items: center; /* Align the bullet and text horizontally */
+  font-family: 'IBM Plex Mono', monospace;
+
 }
 
 .rules-list li:before {

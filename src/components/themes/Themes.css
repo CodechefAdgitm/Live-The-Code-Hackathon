@@ -28,16 +28,18 @@
 }
 
 .theme-box h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #fff; /* Use black (#000) for the heading text color */
   margin-bottom: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
 }
 
 .theme-box .circleShape {
   width: 80px;
   height: 80px;
   border-radius: 50%; /* Create a circular shape */
-  background-color: #6B5B95; /* Use dark gray (#222) for the circle background */
+  background-color: #6b5b95; /* Use dark gray (#222) for the circle background */
   display: flex;
   justify-content: center;
   align-items: center;
