@@ -42,7 +42,13 @@ export default function Themes() {
   return (
     <>
     <section className="themes">
-    <div className="heading"><h2>Themes</h2></div>
+    <div className="heading"><h2>        <div class="container">
+  <p class="glitch">
+    <span aria-hidden="true">Themes</span>
+    Themes
+    <span aria-hidden="true">Themes</span>
+  </p>
+</div></h2></div>
       <div data-aos="fade-up">
       <div className="themes-container">
         {themesData.map((theme, index) => (

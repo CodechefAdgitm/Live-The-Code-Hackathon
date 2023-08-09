@@ -64,6 +64,22 @@ export default function Teams() {
           </div>
         </article>  
         </div>
+        <div data-aos="fade-up">  
+        <article className="team_member">
+          <div className="team_member-image">
+            <img src={img2}/>
+          </div>
+          <div className="team_member-info">
+            <h4>Dhruv Gera</h4>
+            <p>Web and App Development</p>
+          </div>
+          <div className="team_member-socials">
+            <a href="https://www.linkedin.com/in/dhruv-gera/" target="_black"><FaLinkedin/></a>
+            <a href="#" target="_black"><FaInstagram/></a>
+            <a href="#" target="_black"><FaTwitter/></a>
+          </div>
+        </article>  
+        </div>
         <div data-aos="fade-up">
               <article className="team_member">
           <div className="team_member-image">

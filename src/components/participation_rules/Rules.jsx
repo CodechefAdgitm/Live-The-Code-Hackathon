@@ -9,7 +9,13 @@ import codeImg from "../../assets/images/codeimg.png";
 export default function Rules() {
   return (
     <section className="colorBlack">
-       <div className="heading"><h2>Participation Rules</h2></div>
+       <div className="heading"><h2>        <div class="container">
+  <p class="glitch">
+    <span aria-hidden="true">Participation Rules</span>
+    Participation Rules
+    <span aria-hidden="true">Participation Rules</span>
+  </p>
+</div></h2></div>
     <div className="participation-rules">
 
       <div className="image-container">

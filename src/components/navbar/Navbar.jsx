@@ -2,6 +2,10 @@ import React from 'react';
 import "./navbar.css"
 
 export default function Navbar() {
+  
+  const scrollToTop = () => {
+    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+  }
   return (
     <nav className="navbar">
       <div className="container">
@@ -12,7 +16,7 @@ export default function Navbar() {
             <a href="#home" className="nav-link">Home</a>
           </li>
           <li className="nav-item">
-            <a href="#about" className="nav-link">About</a>
+            <a href="#about" className="nav-link" onClick={scrollToTop}>About</a>
           </li>
           <li className="nav-item">
             <a href="#themes" className="nav-link">Themes</a>

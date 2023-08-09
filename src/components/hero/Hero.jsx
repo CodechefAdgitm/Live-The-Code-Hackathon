@@ -4,6 +4,7 @@ import "./hero.css";
 import image from "../../assets/images/22635333_6583017.svg";
 
 export default function Hero() {
+  
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://apply.devfolio.co/v2/sdk.js";
