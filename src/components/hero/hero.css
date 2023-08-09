@@ -96,8 +96,8 @@
   width: 40%;
 }
 
-.right img {
-}
+/* .right img {
+} */
 
 @media (max-width:650px) {
   .hero-section {
@@ -125,6 +125,7 @@
     font-size: 10vw;
     line-height: 10vw;
     margin-bottom: 5vw;
+    overflow-y: hidden;
   }
   .left p {
     font-size: 3.5vw;

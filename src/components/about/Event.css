@@ -138,6 +138,7 @@
     }
     .timeline::after{
         left: 31px;
+        
     }
     .container-event{
         width: 100%;
