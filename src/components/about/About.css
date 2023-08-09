@@ -14,6 +14,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: 0.5s ease; /* Add transition for hover effect */
+  margin-bottom: 40px;
 }
 
 .about-image:hover img {
@@ -42,6 +43,9 @@
   line-height: 1.5;
   color: #7A7A7A;
   margin-top: 20px;
+}
+#wrapper{
+  padding-top: 0;
 }
 
 /* .heading {
@@ -161,5 +165,7 @@ border-bottom-color: #6C63FF;
 }
 }
 
+.rules-list >p {
+  font-family: 'IBM Plex Mono', monospace;
 
-
+}
