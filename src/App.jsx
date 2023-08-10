@@ -30,8 +30,8 @@ function App() {
         <Rules/>
         <Prize/>
         <Sponsors/>
-        <Teams/>
-        <Offerings/>
+        {/* <Teams/> */}
+        {/* <Offerings/> */}
         <Ask/>
         <Contact/>
       
