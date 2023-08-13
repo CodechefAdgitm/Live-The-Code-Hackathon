@@ -29,9 +29,18 @@ const Sponsors = () => {
   return (
     <>
       <section className="sponsors">
-        <div className="heading">
-          <h2>Sponsors & Partners</h2>
-        </div>
+      <div className="heading">
+        <h2>
+          {" "}
+          <div class="container">
+            <p class="glitch">
+              <span aria-hidden="true">Sponsors</span>
+              Sponsors
+              <span aria-hidden="true">Sponsors</span>
+            </p>
+          </div>
+        </h2>
+      </div>
         {/* <p>Coming soon</p> */}
         <div className="icons-container">
           {sponsorsData.map((sponsor, index) => (
