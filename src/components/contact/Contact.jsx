@@ -8,7 +8,7 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <>
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-content">
         <div className="footer-left">
           <h3>Contact Us</h3>
