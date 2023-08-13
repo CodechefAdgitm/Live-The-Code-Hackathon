@@ -19,7 +19,7 @@ export default function Hero() {
 
   return (
     <>
-      <div className="hero-section">
+      <div className="hero-section" id="home">
         <div className="left">
         <h1><span>
         <RandomReveal isPlaying duration={3} characters="Welcome To Live the code Hackathon" />
