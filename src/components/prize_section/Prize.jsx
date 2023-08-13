@@ -10,10 +10,19 @@ export default function Prize() {
   return (
     <div>
       <div className="prize-section">
-      <div className="sponsors-heading">
-      <div className="heading"><h2>Prize</h2></div>
-        </div>
-        <p>Coming soon</p>
+      <div className="heading">
+        <h2>
+          {" "}
+          <div class="container">
+            <p class="glitch">
+              <span aria-hidden="true">Prizes</span>
+              Prizes
+              <span aria-hidden="true">Prizes</span>
+            </p>
+          </div>
+        </h2>
+      </div>
+        <p className='centerdpara'>Coming soon</p>
         {/* <div className="container1">
             <div className="prize1 prize">
                 <div className="first-cup rotate">
