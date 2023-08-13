@@ -40,14 +40,40 @@
   cursor: pointer;
 }
 
-.apply-button {
+/* .apply-button { */
   /* background-color: #6b5b95;
   color: #fff; */
+/* } */
+
+/* .apply-button:hover { */
+  /* background-color: #7a5b95; */
+/* } */
+
+/* temp btn css start */
+.temp-button {
+  display: inline-block;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff; 
+  border: 2px solid #007bff; 
+  border-radius: 4px; 
+  cursor: pointer;
 }
 
-.apply-button:hover {
-  /* background-color: #7a5b95; */
+.temp-button:hover {
+  background-color: #0056b3;
 }
+
+
+.temp-button:active {
+  background-color: #003c80; 
+}
+/* temp btn css end */
 
 .register-button {
   background-color: #fff;

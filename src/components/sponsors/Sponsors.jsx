@@ -22,7 +22,6 @@ const sponsorsData =  [
   { src: Solana, alt: "SOLANA LOGO" },
   { src: four, alt: "FILECOIN LOGO" },
   { src: Replit, alt: "REPLIT LOGO" },
-  
 ];
 
 
