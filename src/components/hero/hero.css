@@ -12,10 +12,11 @@
   margin: 0 auto;
 }
 
-.hero-content h1 {
+.hero-section h1 {
   font-size: 3rem;
   margin-bottom: 20px;
   color: #222222;
+  overflow: hidden;
 }
 
 .hero-content p {
