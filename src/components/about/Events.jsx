@@ -14,14 +14,20 @@ export default function Events() {
   return (
     <>
       <div className="events">
-        <div className="heading"><h2>Event Timeline</h2></div>
+        <div className="heading"><h2>        <div class="container">
+  <p class="glitch">
+    <span aria-hidden="true">Event Timeline</span>
+    Event Timeline
+    <span aria-hidden="true">Event Timeline</span>
+  </p>
+</div></h2></div>
         <div className="timeline">
           <div className="container-event left-container">
             <img src={logo} />
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Registration</h2>
-                <small>31 July (12pm) - 20 August (11.30pm)</small>
+                <small>6 August - 20 August</small>
                 <span className="left-container-arrow"></span>
               </div>
             </div>
@@ -33,21 +39,20 @@ export default function Events() {
             <img src={logo} />
             <div data-aos="fade-left">
               <div className="text-box">
-                <h2>Orientation (Youtube)</h2>
+                <h2>Orientation</h2>
                 <small>20 August (6pm)</small>
                 <span className="right-container-arrow"></span>
               </div>
             </div>
           </div>
         </div>
-
         <div className="timeline">
           <div className="container-event left-container">
             <img src={logo} />
             <div data-aos="fade-right">
               <div className="text-box">
-                <h2>PPT Submission Deadline</h2>
-                <small>2 Sept. (10am)</small>
+                <h2>Speaker Sessions</h2>
+                <small>21 August - 30 August</small>
                 <span className="left-container-arrow"></span>
               </div>
             </div>
@@ -59,8 +64,8 @@ export default function Events() {
             <img src={logo} />
             <div data-aos="fade-left">
               <div className="text-box">
-                <h2>Round 1 Pitches to Judges</h2>
-                <small>2 Sept (12pm) - 3rd Sept (12pm)</small>
+                <h2>Round 1 Idea Presentation</h2>
+                <small>28 August - 29 August</small>
                 <span className="right-container-arrow"></span>
               </div>
             </div>
@@ -72,8 +77,8 @@ export default function Events() {
             <img src={logo} />
             <div data-aos="fade-right">
               <div className="text-box">
-                <h2>Round 1 Result</h2>
-                <small>5th Sept. (12pm)</small>
+                <h2>Round 1 Results</h2>
+                <small>31 August</small>
                 <span className="left-container-arrow"></span>
               </div>
             </div>
@@ -85,8 +90,8 @@ export default function Events() {
             <img src={logo} />
             <div data-aos="fade-left">
               <div className="text-box">
-                <h2>Multiple Speakers Sessions</h2>
-                <small>21 August - 2 September</small>
+                <h2>Round 2 Coding Phase (36hr)</h2>
+                <small>1 September (11am) - 2 September (11pm)</small>
                 <span className="right-container-arrow"></span>
               </div>
             </div>
@@ -98,8 +103,8 @@ export default function Events() {
             <img src={logo} />
             <div data-aos="fade-right">
               <div className="text-box">
-                <h2>Round 2 - Working Prototype Submissions</h2>
-                <small>8 Sept (11am) - 9 Sept (11am) (24 hr hackathon)</small>
+                <h2>Final Pitches to judges</h2>
+                <small>3 September(12pm - 6pm)</small>
                 <span className="left-container-arrow"></span>
               </div>
             </div>
@@ -110,23 +115,10 @@ export default function Events() {
           <div className="container-event right-container">
             <img src={logo} />
             <div data-aos="fade-left">
-              <div className="text-box">
-                <h2>Final Pitches to Judges</h2>
-                <small>9 Sept (6pm) - 10 Sept (6pm)</small>
-                <span className="right-container-arrow"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="timeline">
-          <div className="container-event left-container">
-            <img src={logo} />
-            <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Final Result</h2>
-                <small>14th Sept</small>
-                <span className="left-container-arrow"></span>
+                <small>5 September</small>
+                <span className="right-container-arrow"></span>
               </div>
             </div>
           </div>

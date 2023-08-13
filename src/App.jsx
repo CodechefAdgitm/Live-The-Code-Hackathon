@@ -3,6 +3,7 @@ import React from 'react'
 import ReactDOM from "react-dom/client";
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Blob from './components/blob/blob';
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
 import About from './components/about/About'
@@ -18,9 +19,10 @@ import Contact from './components/contact/Contact'
 import Ask from './components/ask/Ask'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
+
   return (
       <div>
-        
+        <Blob/>
         <Navbar/>
         <Hero/>
         <About/>

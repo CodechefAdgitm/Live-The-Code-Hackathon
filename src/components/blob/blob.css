@@ -1,0 +1,42 @@
+/* Define your animation */
+@keyframes moveBlob {
+    to {
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      rotate: 0deg;
+    }
+    
+    50% {
+      scale: 1 1.5;
+    }
+    
+    to {
+      rotate: 360deg;
+    }
+  }
+  
+  /* Apply animation to the blob element */
+  .blob {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background:linear-gradient(to right, aquamarine, mediumpurple);; /* Set the background to transparent */
+    animation: rotate 0.3s linear forwards; /* Adjust duration and easing as needed */
+    opacity: 0.8;
+    transform: translate(-50%, -50%);
+    filter: blur(130px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow for glow effect */
+  }
+  
+  #blur {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    backdrop-filter: blur(12vmax);
+  }

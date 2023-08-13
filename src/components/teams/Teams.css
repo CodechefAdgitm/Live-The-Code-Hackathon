@@ -46,6 +46,7 @@
   
   .team_member-info p {
     color: #b6b5b5;
+    font-family: 'IBM Plex Mono', monospace;
   }
   
   .team_member-socials {
@@ -73,13 +74,15 @@
     color: #6B5B95;
     text-align: center;
     padding: 5rem;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 40px;
+    font-family: 'IBM Plex Mono', monospace;
   }
   
   .team_member-info h4 {
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'IBM Plex Mono', monospace;
   }
   
   @media screen and (max-width: 768px) {
@@ -96,3 +99,7 @@
     }
   }
   
+.team > h2{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 900;
+}

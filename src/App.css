@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins,sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #e5e7eb;
 }
 body{
     background-color: #000;
-    font-family: Verdana,sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .container{
@@ -15,3 +16,6 @@ body{
     padding: 10px 20px;
 }
 
+.container1{
+  width: 100vw;
+}
