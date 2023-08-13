@@ -22,7 +22,7 @@ export default function Hero() {
       <div className="hero-section" id="home">
         <div className="left">
         <h1><span>
-        <RandomReveal isPlaying duration={3} characters="Welcome To Live the code Hackathon" />
+        <RandomReveal isPlaying duration={3} characters="Welcome To Live the code Hackathon 2.0" />
         </span>
           </h1>
           <p className="hero-para">
@@ -31,17 +31,7 @@ export default function Hero() {
             shape the future. Unleash y our potential and be part of a vibrant
             community driving positive change. Let&apos;s hack together!
           </p>
-          <div className="temp-button"> 
-            <a
-              // className="apply-button"
-              target="_blank"
-              rel="noreferrer"
-              href="https://devfolio.co/@codechefadgitm"
-              style={{color:"white",textDecoration:"None"}}
-            >
-              Apply With Devfolio
-            </a>
-          </div>
+          
           <div className="action-buttons">
             <div  
               className="apply-button"
