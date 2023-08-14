@@ -24,7 +24,7 @@ export default function Blob() { // Capitalize the component name
       style={{
         left: `${position.left}px`,
         top: `${position.top}px`,
-        zIndex: 9999,
+        zIndex: 1,
       }}
     ></div>
   );
