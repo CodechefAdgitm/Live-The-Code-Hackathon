@@ -1,265 +1,107 @@
+/* Reset styles */
 * {
-  font-family: poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar-body {
+  background: #000;
+  color: white;
+  font-family: sans-serif;
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #222222;
-  color: #fff;
-  padding: 10px 0;
-}
-
-.container {
+  height: 5rem;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 1rem 2rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 
-/* Add a new class to style the navigation links in a single line */
-.nav-links {
-  display: flex;
-  flex-wrap: wrap;
+.logo {
+  object-fit: cover;
+  height: 4rem;
+  width: 4rem;
 }
 
-.navbar-brand {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #fff;
+.desktopMenuListItem {
+  margin: 1rem;
+  cursor: pointer;
   text-decoration: none;
-  margin-right: 20px; /* Add some space between the brand and navigation links */
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 900;
-}
-
-.nav-links li {
-  margin-right: 20px;
-}
-
-.nav-link {
+  color: white;
   font-size: 1.2rem;
-  color: #fff;
-  text-decoration: none;
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: 600;
 }
 
-.nav-link:hover {
-  color: #a3cfcd;
+.desktopMenuListItem:hover {
+  color: #7a5b95;
 }
-#header {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  padding: 15px 0px;
+
+.desktopMenuBtn {
+  background: white;
+  color: black;
+  border: none;
   display: flex;
-  justify-content: left;
   align-items: center;
-  backdrop-filter: blur(60px);
-  background-color: #222222;
-  z-index: 1;
-  margin: 0px;
+  justify-content: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
 }
 
-.head {
+.desktopMenuImg {
+  object-fit: cover;
+  height: 1rem;
+  width: 1rem;
+  margin: 1rem;
+}
+
+.active {
+  color: #7a5b95;
+}
+
+.mobMenu {
+  display: none;
+  object-fit: cover;
+  height: 3rem;
+}
+
+.navMenu {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  min-width: 15rem;
+  background: rgb(40, 40, 40);
+  border-radius: 1rem;
+}
+
+.ListItem {
   color: white;
-  font-size: 32px;
-  font-weight: bolder;
-  padding: 0;
-  margin: 0;
-  margin-left: 28px;
-}
-
-a {
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background: rgb(30, 30, 30);
   text-decoration: none;
 }
 
-.nav-links-1 {
-  display: flex;
-  margin: 0px 0px;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
-  margin-left: auto;
-  padding: 0px;
-}
-
-.nav-links-2 {
-  display: none;
-  margin: 0px 0px;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
-  margin-left: auto;
-  padding: 0px;
-}
-
-.nav-item {
-  list-style: none;
-}
-
-.nav-link {
-  font-size: 1.4rem;
-  color: #fff;
-  text-decoration: none;
-  margin: 0px 10px;
-}
-
-.nav-link:hover {
-  color: #a3cfcd;
-  text-decoration: underline;
-}
-
-.nav-link:hover {
-  color: #a3cfcd;
-  text-decoration: underline;
-}
-
-.drop_menu {
-  opacity: 1;
-  width: 100%;
-  /* height: 100px; */
-  background-color: #222222;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  display: none;
-}
-
-.innermenu {
-  padding: 0px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin: 10px;
-  border: 2px solid rgb(147, 147, 147);
-  border-radius: 30px;
-  width: 100%;
-}
-
-.drop-links {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-.drop-links li {
-  margin-right: 0px;
-  list-style: none;
-}
-
-.drop-link {
-  font-size: 1.4rem;
-  color: #fff;
-  text-decoration: none;
-}
-
-.drop-link:hover {
-  color: #a3cfcd;
-  text-decoration: underline;
-}
-
-#dropmenu {
-  margin-left: auto;
-  display: none;
-}
-
-#innerdropmenu {
-  color: white;
-  font-size: 25px;
-  border-radius: 4px;
-  padding: 2px;
-  margin: 0px;
-  margin-left: auto;
-  margin-right: 40px;
-  transition: all 500ms ease-in-out;
-  display: block;
-}
-
-@media only screen and (max-width: 850px) {
-  .nav-links-1 {
-    display: none;
-  }
-
-  .head {
-    font-size: 28px;
-  }
-
-  .nav-links-2 {
+/* Media query for mobile */
+@media screen and (max-width: 770px) {
+  .mobMenu {
     display: flex;
+    z-index: 10;
   }
-}
-
-@media only screen and (max-width: 500px) {
-  .nav-links-2 {
+  .desktopMenu {
     display: none;
   }
-
-  .drop-links {
-    padding-left: 0px;
-  }
-
-  .head {
-    font-size: 24px;
-  }
-
-  .drop-item {
-    margin: 0px 20px;
-  }
-
-  .drop-link {
-    font-size: 1.2rem;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  #dropmenu {
-    color: white;
-    font-size: 30px;
-    border-radius: 4px;
-    padding: 2px;
-    margin-left: auto;
-    margin-right: 40px;
-    transition: all 500ms ease-in-out;
-    display: block;
-  }
-
-  #innerdropmenu {
-    color: white;
-    font-size: 25px;
-    border-radius: 4px;
-    padding: 2px;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: 20px;
-    transition: all 500ms ease-in-out;
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  #dropmenu {
-    margin-right: 20px;
-  }
-
-  #innerdropmenu {
-    margin-right: 10px;
-  }
-
-  .drop-item {
-    margin: 0px 15px;
-  }
-
-  .head {
-    font-size: 22px;
-    margin-left: 15px;
+  .desktopMenuBtn {
+    display: none;
   }
 }

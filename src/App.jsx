@@ -33,7 +33,7 @@ function App() {
         <Prize/>
         <Sponsors/>
         <Teams/>
-        <Offerings/>
+        {/* <Offerings/> */}
         <Ask/>
         <Contact/>
       
