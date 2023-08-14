@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../assets/images/codechef-logo.jpg";
+import ccxelixer from "../../assets/images/cc x elixer1.png"
 import { Link } from "react-scroll";
 import contactImg from '../../assets/images/contact.png'
 import menu from '../../assets/images/menu.png'
@@ -10,7 +11,7 @@ export default function Navbar() {
   return (
     <div className="navbar-body">
         <nav className="navbar">
-          <img src={logo} className="logo" />
+          <img src={ccxelixer} className="logo" />
           <div className="desktopMenu">
             <Link activeClass='active'to='home' smooth={true} offset={-100} spy={true} duration={500} className="desktopMenuListItem">Home</Link>
             <Link activeClass='active'to='about' smooth={true} offset={-100} spy={true} duration={500} className="desktopMenuListItem">About</Link>
