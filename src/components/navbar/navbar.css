@@ -26,9 +26,10 @@
 }
 
 .logo {
-  object-fit: cover;
+  /* object-fit: contain; */
+  margin-left: 1rem;
   height: 4rem;
-  width: 4rem;
+  width: 8rem;
 }
 
 .desktopMenuListItem {
@@ -50,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   border-radius: 2rem;
 }
 
