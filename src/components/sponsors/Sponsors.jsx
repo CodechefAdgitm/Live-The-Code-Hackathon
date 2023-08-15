@@ -1,8 +1,8 @@
-import React from 'react';
-import one from '../prize_section/images/1.png';
-import two from '../prize_section/images/2.png';
-import four from '../prize_section/images/4.png';
-import eight from '../prize_section/images/8.png';
+import React from "react";
+import one from "../prize_section/images/1.png";
+import two from "../prize_section/images/2.png";
+import four from "../prize_section/images/4.png";
+import eight from "../prize_section/images/8.png";
 import Replit from "../prize_section/images/Replit.jpg";
 import Solana from "../prize_section/images/Solana.png";
 import InterviewCake from "../prize_section/images/interview-cake.jpg";
@@ -14,7 +14,7 @@ import "./sponsors.css";
 
 // const sponsorsData = [one, two, three, four, five, six, sev, eight, nine, ten, elev];
 //alt tag
-const sponsorsData =  [
+const sponsorsData = [
   { src: two, alt: "DEVFOLIO LOGO" },
   { src: four, alt: "FILECOIN LOGO" },
   { src: eight, alt: "POLYGON LOGO" },
@@ -27,32 +27,32 @@ const sponsorsData =  [
   { src: Axure, alt: "axure" },
 ];
 
-
 const Sponsors = () => {
   return (
     <>
       <section className="sponsors">
-      <div className="heading">
-        <h2>
-          {" "}
-          <div class="container">
-            <p class="glitch">
-              <span aria-hidden="true">Sponsors</span>
-              Sponsors
-              <span aria-hidden="true">Sponsors</span>
-            </p>
-          </div>
-        </h2>
-      </div>
+        <div className="heading">
+          <h2>
+            {" "}
+            <div className="container">
+              <p className="glitch">
+                <span aria-hidden="true">Sponsors</span>
+                Sponsors
+                <span aria-hidden="true">Sponsors</span>
+              </p>
+            </div>
+          </h2>
+        </div>
         {/* <p>Coming soon</p> */}
         <div className="icons-container">
           {sponsorsData.map((sponsor, index) => (
-            <div
-            key={index}
-            className="icon"
-            style={{ backgroundImage: `url(${sponsor.src})` }}
-            alt={sponsor.alt}
-          ></div>
+            <img key={index} className="icon" src={sponsor.src} alt={sponsor.alt}></img>
+            // <div
+            //   key={index}
+            //   className="icon"
+            //   style={{ backgroundImage: `url(${sponsor.src})` }}
+            //   alt={sponsor.alt}
+            // ></div>
           ))}
         </div>
       </section>
