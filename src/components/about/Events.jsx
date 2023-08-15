@@ -23,7 +23,7 @@ export default function Events() {
 </div></h2></div>
         <div className="timeline">
           <div className="container-event left-container">
-            <img src={logo} />
+            
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Registration</h2>
@@ -36,7 +36,7 @@ export default function Events() {
 
         <div className="timeline">
           <div className="container-event right-container">
-            <img src={logo} />
+            
             <div data-aos="fade-left">
               <div className="text-box">
                 <h2>Orientation</h2>
@@ -48,7 +48,7 @@ export default function Events() {
         </div>
         <div className="timeline">
           <div className="container-event left-container">
-            <img src={logo} />
+           
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Speaker Sessions</h2>
@@ -61,7 +61,7 @@ export default function Events() {
 
         <div className="timeline">
           <div className="container-event right-container">
-            <img src={logo} />
+            
             <div data-aos="fade-left">
               <div className="text-box">
                 <h2>Round 1 Idea Presentation</h2>
@@ -74,7 +74,7 @@ export default function Events() {
 
         <div className="timeline">
           <div className="container-event left-container">
-            <img src={logo} />
+            
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Round 1 Results</h2>
@@ -87,7 +87,7 @@ export default function Events() {
 
         <div className="timeline">
           <div className="container-event right-container">
-            <img src={logo} />
+            
             <div data-aos="fade-left">
               <div className="text-box">
                 <h2>Round 2 Coding Phase (36hr)</h2>
@@ -100,7 +100,7 @@ export default function Events() {
 
         <div className="timeline">
           <div className="container-event left-container">
-            <img src={logo} />
+            
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Final Pitches to judges</h2>
@@ -113,7 +113,7 @@ export default function Events() {
 
         <div className="timeline">
           <div className="container-event right-container">
-            <img src={logo} />
+            
             <div data-aos="fade-left">
               <div className="text-box">
                 <h2>Final Result</h2>
