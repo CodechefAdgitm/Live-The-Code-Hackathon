@@ -163,6 +163,10 @@ border-width: 0 50px 50px 0;
 border-left-color: transparent;
 border-bottom-color: #6C63FF;
 }
+.glitch{
+  font-size: 40px !important;
+  font-weight: bold;
+}
 }
 
 .rules-list >p {
@@ -175,6 +179,7 @@ border-bottom-color: #6C63FF;
 }
 
 .glitch {
+
   font-size: 5rem;
   font-weight: bold;
   text-transform: uppercase;
