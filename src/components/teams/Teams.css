@@ -1,105 +1,58 @@
 .team {
-    background: #000;
-    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+  background: #000;
+  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+body {
+  background: #000;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
   }
-  
-  .team_container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin: 0 12%;
-    padding-bottom: 5%;
+  to {
+    transform: translateX(-100%);
   }
-  
-  .team_member {
-    background: #222222;
-    border-color: #6C63FF;
-    padding: 1rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-    position: relative;
-    overflow: hidden;
-    border-radius: 4px;
-  }
-  
-  .team_member:hover {
-    background: #222222;
-    border-color: #363870;
-  }
-  
-  .team_member-image img {
-    filter: saturate(0);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-  }
-  
-  .team_member:hover img {
-    filter: saturate(1);
-  }
-  
-  .team_member-info * {
-    text-align: center;
-    margin-top: 1.4rem;
-  }
-  
-  .team_member-info p {
-    color: #b6b5b5;
-    font-family: 'IBM Plex Mono', monospace;
-  }
-  
-  .team_member-socials {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: -100%;
-    display: flex;
-    flex-direction: column;
-    background: #2D3061;
-    border-radius: 1rem 0 0 1rem;
-    box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
-    transition: var(--transition);
-  }
-  
-  .team_member:hover .team_member-socials {
-    right: 0;
-  }
-  
-  .team_member-socials a {
-    padding: 1rem;
-  }
-  
-  .team h2 {
-    color: #6B5B95;
-    text-align: center;
-    padding: 5rem;
-    font-weight: 900;
-    font-size: 40px;
-    font-family: 'IBM Plex Mono', monospace;
-  }
-  
-  .team_member-info h4 {
-    color: #fff;
-    font-weight: 600;
-    font-family: 'IBM Plex Mono', monospace;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .team_container {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-  
-    .team_member-socials {
-      display: none; /* Hide the social links in mobile view */
-    }
-  
-    .team_member {
-      margin-bottom: 2rem;
-    }
-  }
-  
-.team > h2{
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 900;
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: #000;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #000);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #000);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 6rem;
+  margin: 0 40px;
 }

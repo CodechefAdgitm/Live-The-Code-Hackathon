@@ -1,5 +1,7 @@
 import React from "react";
 import aboutSvg from "../../assets/images/about.svg";
+import CClogo from "../../assets/images/codechef-logo.jpg"
+import Elixerlogo from "../../assets/images/Elixer.jpeg"
 import "./About.css";
 
 export default function About() {
@@ -19,7 +21,7 @@ export default function About() {
       </div>
       <div id="wrapper" className="participation-rules">
         <div className="about-image">
-          <img src={aboutSvg} alt="About Us" />
+          <img src={CClogo} alt="About Us" />
         </div>
         <div className="points-container">
           <ul className="rules-list">
@@ -37,6 +39,28 @@ export default function About() {
               thriving forces.
             </p>
           </ul>
+        </div>
+      </div>
+
+
+      <div id="wrapper" className="participation-rules">
+        <div className="points-container">
+          <ul className="rules-list">
+            <p classname="about">
+            Elixir aces as an unparalleled community consisting of the greatest 
+            minds of our college. It has people ranging from tech domains to non-tech
+            sectors, all of whom are competent in their respective areas and strive
+            together to make Elixir an astounding entity. With the perfect space to
+            learn, collaborate, and explore, you are bound to experience many
+            "Hello World" moments here. With our aim to provide our students
+            an environment that fosters self-growth, we are proud to call
+            ourselves a community FOR THE STUDENTS, BY THE STUDENTS, AND
+            OF THE STUDENTS.
+            </p>
+          </ul>
+        </div>
+        <div className="about-image">
+          <img src={Elixerlogo} alt="About Us" />
         </div>
       </div>
     </section>
