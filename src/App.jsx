@@ -13,7 +13,6 @@ import Prize from "./components/prize_section/Prize";
 import Sponsors from "./components/sponsors/Sponsors";
 import Teams from "./components/teams/Teams";
 import Themes from "./components/themes/Themes";
-import Timeline from "./components/timeline/Timeline";
 import Offerings from "./components/offerings/Offerings";
 import Contact from "./components/contact/Contact";
 import Ask from "./components/ask/Ask";

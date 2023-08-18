@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
+import '../hero/hero.scss';
 import logo from "../../assets/images/codechef-logo.jpg";
 import ccxelixer from "../../assets/images/cc x elixer1.png";
 // import { Link } from "react-scroll";
