@@ -44,6 +44,11 @@
   color: #7a5b95;
 }
 
+.contactButton {
+  padding: 3px 18px; /* Adjust padding values as needed */
+}
+
+
 .desktopMenuBtn {
   background: white;
   color: black;

@@ -33,7 +33,7 @@ export default function Navbar() {
           </Link>
         </div>
         <button
-          className="desktopMenuBtn"
+          className="desktopMenuBtn contactButton"
           onClick={() => {
             document
               .getElementById("contact")
