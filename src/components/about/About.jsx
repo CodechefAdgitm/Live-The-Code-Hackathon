@@ -1,22 +1,21 @@
 import React from "react";
 import aboutSvg from "../../assets/images/about.svg";
 import CClogo from "../../assets/images/codechef-logo.jpg"
-import Elixerlogo from "../../assets/images/Elixer.jpeg"
+import Elixerlogo from "../../assets/images/Elixer.png"
 import "./About.css";
 import "../../App.css"
 
 export default function About() {
   return (
     <section className="lightbluebackground" id="about">
-        <h1>
-        About us
-        </h1>
+      <div data-aos="fade-up">
+      <h3 className="subheading pink">Codechef</h3>
       <div id="wrapper" className="participation-rules">
-        <div className="about-image">
-          <img src={CClogo} alt="About Us" />
+        <div>
+          <img src={CClogo} alt="About Us" className="abtimg"/>
         </div>
         <div className="points-container">
-          <ul >
+          <ul>
             <p>
               We, CodeChef ADGITM chapter is a close-knit community of diligent
               coders who come together and share best practices, new coding
@@ -33,11 +32,13 @@ export default function About() {
           </ul>
         </div>
       </div>
+      </div>
 
-
+      <div data-aos="fade-up">
+      <h3 className="subheading purple">Elixir</h3>
       <div id="wrapper" className="participation-rules">
         <div className="points-container">
-          <ul className="rules-list">
+          <ul>
             <p classname="about">
             Elixir aces as an unparalleled community consisting of the greatest 
             minds of our college. It has people ranging from tech domains to non-tech
@@ -51,9 +52,10 @@ export default function About() {
             </p>
           </ul>
         </div>
-        <div className="about-image">
-          <img src={Elixerlogo} alt="About Us" />
+        <div >
+          <img src={Elixerlogo} alt="About Us" className="abtimg"/>
         </div>
+      </div>
       </div>
     </section>
   );
