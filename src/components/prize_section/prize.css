@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #2191FB;
   font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -7,7 +7,7 @@ body {
 .prize-section {
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #2191FB;
   padding: 4px 2px;
   padding-bottom: 100px;
 }
