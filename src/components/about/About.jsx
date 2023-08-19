@@ -3,29 +3,21 @@ import aboutSvg from "../../assets/images/about.svg";
 import CClogo from "../../assets/images/codechef-logo.jpg"
 import Elixerlogo from "../../assets/images/Elixer.jpeg"
 import "./About.css";
+import "../../App.css"
 
 export default function About() {
   return (
-    <section className="colorBlack" id="about">
-      <div className="heading">
-        <h2>
-          {" "}
-          <div class="container">
-            <p class="glitch">
-              <span aria-hidden="true">About</span>
-              About
-              <span aria-hidden="true">About</span>
-            </p>
-          </div>
-        </h2>
-      </div>
+    <section className="lightbluebackground" id="about">
+        <h1>
+        About us
+        </h1>
       <div id="wrapper" className="participation-rules">
         <div className="about-image">
           <img src={CClogo} alt="About Us" />
         </div>
         <div className="points-container">
-          <ul className="rules-list">
-            <p classname="about">
+          <ul >
+            <p>
               We, CodeChef ADGITM chapter is a close-knit community of diligent
               coders who come together and share best practices, new coding
               accomplishments, and plenty of resources to become the best

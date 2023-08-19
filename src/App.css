@@ -2,12 +2,48 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "IBM Plex Mono", monospace;
-  color: #e5e7eb;
+  font-family: Arial, sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  color: #0C94FE; /* Vivid Blue */
+}
+
+h2 {
+  font-size: 30px;
+  color: #1E3231; /* Dark Neutral */
+ 
+}
+
+h3 {
+  font-size: 24px;
+  color: #BAFFDF; /* Pale Mint Green */
+}
+
+h4 {
+  font-size: 20px;
+  color: #B2EDC5; /* Soft Green */
+}
+
+h5 {
+  font-size: 18px;
+  color: #C1FFF2; /* Light Aqua */
+}
+
+h6 {
+  font-size: 16px;
+  color: #B2EDC5; /* Soft Green */
+}
+
 body {
-  background-color: #000;
-  font-family: "IBM Plex Mono", monospace;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
