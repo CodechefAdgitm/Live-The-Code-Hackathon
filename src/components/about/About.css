@@ -1,180 +1,59 @@
 
+/* About.css */
 
-.about-image img {
-  max-width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.5s ease;
-  margin: 20px;
+/* Apply the color theme */
+.lightbluebackground {
+  background-color: #fff;
+}
+.abtimg{
+  height: 300px;
 }
 
-.about-image:hover img {
-  transform: scale(1.2);
-}
 
+/* Style the heading */
 .heading h2 {
   text-align: center;
   padding: 2vw;
-  font-size: 36px; /* Adjust the heading size */
+  font-size: 36px;
   color: #0C94FE; /* Vivid Blue */
 }
 
+.subheading{
+  background-color: #FFECFA;
+  padding: 5px;
+  font-size: 21px;
+  font-weight: 400;
+  border-radius: 10px;
+  color: #f175d0;
+  width: 8%;
+  margin: auto;
+  text-align: center;
+}
+.pink{
+  background-color: #FFECFA;
+  color: #f175d0;
+}
+
+.purple{
+  background-color: #E4DEFF;
+  color: #552BFF;
+}
+.pinkbackground{
+  background: linear-gradient(to right, #FFECFA, transparent);
+}
+
+.purplebackground{
+  background: linear-gradient(to left, #E4DEFF, transparent);
+}
+
+/* Style the points container */
 .points-container {
-  background: #E9F5FF;
-  color: #097AFE; /* Vivid Blue */
-  padding: 20px; /* Increase padding for better spacing */
+
+  color: #000;
+  letter-spacing: 2px;
+  padding: 20px;
 }
 
 .points-container p {
-  font-size: 18px; /* Adjust font size for better readability */
+  font-size: 18px;
 }
-
-/* Additional styling for your glitch effect */
-.glitch {
-  font-size: 3rem; /* Adjust font size */
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  animation: glitch 725ms infinite;
-}
-
-.glitch span {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-
-/* ... Existing CSS code ... */
-
-
-
-/* ... Existing CSS code ... */
-
-.wrapper {
-position: relative;
-}
-
-/* Add ::before and ::after pseudo-elements */
-.wrapper::before,
-.wrapper::after {
-content: '';
-position: absolute;
-top: 0;
-width: 0;
-height: 0;
-border-style: solid;
-border-color: transparent;
-}
-
-.wrapper::before {
-left: -50px;
-border-width: 70px 50px 0 0;
-border-right-color: #6C63FF;
-}
-
-.wrapper::after {
-right: -50px;
-border-width: 70px 0 0 50px;
-border-left-color: #6C63FF;
-}
-
-/* Add media query for responsive triangles */
-@media screen and (max-width: 768px) {
-.wrapper::before,
-.wrapper::after {
-border-width: 50px 0;
-}
-
-.wrapper::before {
-left: 0;
-border-width: 50px 0 0 50px;
-border-right-color: transparent;
-border-top-color: #6C63FF;
-}
-
-.wrapper::after {
-right: 0;
-border-width: 0 50px 50px 0;
-border-left-color: transparent;
-border-bottom-color: #6C63FF;
-}
-.glitch{
-  font-size: 40px !important;
-  font-weight: bold;
-}
-}
-
-.rules-list >p {
-  font-family: 'IBM Plex Mono', monospace;
-
-}
-
-.container {
-  text-align: center;
-}
-
-.glitch {
-
-  font-size: 5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-    0.025em 0.04em 0 #fffc00;
-  animation: glitch 725ms infinite;
-}
-
-.glitch span {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.glitch span:first-child {
-  animation: glitch 500ms infinite;
-  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
-  transform: translate(-0.04em, -0.03em);
-  opacity: 0.75;
-}
-
-.glitch span:last-child {
-  animation: glitch 375ms infinite;
-  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
-  transform: translate(0.04em, 0.03em);
-  opacity: 0.75;
-}
-
-@keyframes glitch {
-  0% {
-    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-      0.025em 0.04em 0 #fffc00;
-  }
-  15% {
-    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-      0.025em 0.04em 0 #fffc00;
-  }
-  16% {
-    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-      -0.05em -0.05em 0 #fffc00;
-  }
-  49% {
-    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-      -0.05em -0.05em 0 #fffc00;
-  }
-  50% {
-    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-      0 -0.04em 0 #fffc00;
-  }
-  99% {
-    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-      0 -0.04em 0 #fffc00;
-  }
-  100% {
-    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
-      -0.04em -0.025em 0 #fffc00;
-  }
-}
-
-
-

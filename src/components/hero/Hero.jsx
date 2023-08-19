@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./hero.css";
 import AOS from 'aos';
-import image from "../../assets/images/22635333_6583017.svg";
+import image from "../../assets/images/coder.webp";
 
 export default function Hero() {
   useEffect(() => {
@@ -15,6 +15,7 @@ export default function Hero() {
       <div className="hero-section" id="home">
       <div data-aos="fade-up">
         <div className="left">
+          <img src={image} className="heroImg"/>
           <h1>Live the code Hackathon 2.0</h1>
           <p className="hero-para">
             A weekend of innovation and creativity awaits! Join us for
@@ -22,7 +23,7 @@ export default function Hero() {
             shape the future. Unleash y our potential and be part of a vibrant
             community driving positive change. Let&apos;s hack together!
           </p>
-
+          <a href="#about" class="learn-more-btn">Learn More</a>
           <div className="action-buttons">
             <div
               className="apply-button"
