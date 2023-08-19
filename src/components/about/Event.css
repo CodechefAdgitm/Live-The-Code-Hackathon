@@ -102,10 +102,10 @@
 .text-box h2 {
   font-weight: 600;
   color: #cbd5e1;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: Arial, sans-serif;
 }
 .text-box small {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: Arial, sans-serif;
   font-weight: 900;
   display: inline-block;
   margin-bottom: 15px;
