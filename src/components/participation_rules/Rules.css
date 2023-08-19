@@ -12,6 +12,10 @@
   max-width: 1300px; /* Limit the section's maximum width */
   margin: 0 auto; /* Center the section horizontally */
 }
+.fa-play{
+  color: #c4b5fd;
+  margin-right: 10px;
+}
 
 .image-container {
   flex: 1;
@@ -58,12 +62,6 @@
 
 }
 
-.rules-list li:before {
-  content: "\2022"; /* Bullet character */
-  font-size: 1.5rem;
-  margin-right: 10px;
-  color: #6C63FF; /* Use the light blue color for the bullet */
-}
 
 
 @media screen and (max-width: 768px) {
@@ -87,7 +85,7 @@
 }
 
 .glitch {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;

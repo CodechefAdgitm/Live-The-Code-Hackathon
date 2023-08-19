@@ -49,7 +49,10 @@
   }
 
   .icon {
-    width: 350px; /* Adjust the width of the boxes for smaller screens */
-    height: 250px;
+    width: 90vw; /* Adjust the width of the boxes for smaller screens */
+    height: 40vw;
+    max-width: 250px;
+    max-height: 110px;
+    margin: 0 auto;
   }
 }

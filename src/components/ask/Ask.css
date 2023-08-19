@@ -1,7 +1,7 @@
 /* Color Theme */
 :root {
-  --primary-color: #6b5b95; /* Dark Purple */
-  --secondary-color: #222222; /* Dark Gray */
+  --primary-color: #111827; /* Dark Purple */
+  --secondary-color: #2d2d36; /* Dark Gray */
   --accent-color: #6c63ff; /* Vibrant Blue */
   --background-color: #000; /* Light Gray */
 }
@@ -15,7 +15,7 @@
 .heading {
   text-align: center;
   margin-bottom: 20px;
-  color: var(--primary-color);
+  color: #c4b5fd;
 }
 
 .faq-container {
@@ -33,7 +33,7 @@
   padding: 20px;
   margin-bottom: 10px;
   cursor: pointer;
-  background-color: #222; /* Default background color for items */
+  background-color: #2d2d36; /* Default background color for items */
   transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
@@ -67,3 +67,4 @@
   display: block;
   color: #fff; /* Answer text color for active item */
 }
+

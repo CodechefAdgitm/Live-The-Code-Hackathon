@@ -3,6 +3,7 @@
   background-color: #000;
 }
 
+
 .themes-container {
   max-width: 1300px;
   margin: 0 auto;
@@ -10,11 +11,12 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 0 20px;
 }
 
 .theme-box {
   flex: 0 0 calc(33.33% - 20px); /* Each box takes one-third of the container width with 20px gap */
-  background-color: #222222;
+  background-color:#2d2d36 ;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -24,7 +26,7 @@
 }
 
 .theme-box:hover {
-  transform: translateY(-5px); /* Apply hover effect */
+  background-color: #4b5563;
 }
 
 .theme-box h3 {
@@ -39,7 +41,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%; /* Create a circular shape */
-  background-color: #6b5b95; /* Use dark gray (#222) for the circle background */
+  background-color: #312e81; /* Use dark gray (#222) for the circle background */
   display: flex;
   justify-content: center;
   align-items: center;

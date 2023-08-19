@@ -1,94 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
-.footer {
-  background:#222;
-  color: #fff;
-  padding: 40px 15px;
-}
-
-.footer-content {
+.flex{
   display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 25px;
 }
-
-.footer-left h3,
-.footer-right h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+footer {
+  background: #111827;
+  border-top: 4px solid #374151;
+  padding:25px 15px;
+}
+.footer-heading {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 900;
+  font-size: 30px;
 }
-
-.footer-left p,
-.footer-right li {
-  margin-bottom: 5px;
-  font-family: 'IBM Plex Mono', monospace;
+.left-box >p>a{
+text-decoration: none;
+color: white;
 }
-
-.social-links {
+.left-box > p{
+  margin: 0;
+}
+.mail{
+  font-weight: 600;
+  color: white;
+}
+.social-links>li{
   list-style: none;
-  padding: 0;
+  padding: 5px;
+}
+.social-links{
   display: flex;
+  justify-content: flex-start;
 }
-
-.social-links li {
-  margin-right: 10px;
-}
-
-.social-links li:last-child {
-  margin-right: 0;
-}
-
-.social-links a {
-  color: #fff;
-  text-decoration: none;
-  transition: opacity 0.3s ease;
-}
-
-.social-links a:hover {
-  opacity: 0.8;
-}
-
-.footer-bottom {
+.footer-bottom>p{
   text-align: center;
-  margin-top: 20px;
+  font-weight: 600;
+  margin-top:20px;
+  margin-bottom: 0;
 }
-
-.footer-bottom p {
-  font-size: 0.9rem;
-  font-family: 'IBM Plex Mono', monospace;
+@media(max-width:550px){
+.flex{
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
 }
-
-@media screen and (max-width: 440px) {
-  .RuleHead {
-    font-size: 40px;
-  }
-  .RulePoints {
-    font-size: 15px;
-  }
-  .RulePoints2 {
-    font-size: 15px;
-  }
+.footer-heading{
+  text-align: center;
 }
-
-@media screen and (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-left,
-  .footer-right {
-    flex-basis: 100%;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.footer-bottom>p{
+  margin-top: 0;
+}
+.follow{
+  margin-top: 30px;
+}
+.mail{
+  text-align: center;
+}
+.center{
+  text-align: center;
+  padding: 0 auto;
+}
 }
