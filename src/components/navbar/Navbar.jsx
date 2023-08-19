@@ -53,7 +53,19 @@ export default function Navbar() {
           className="navMenu"
           style={{ display: showMenu ? "flex" : "none" }}
         >
-          <Link
+          <Link to="/" className="ListItem">
+            Home
+          </Link>
+          <Link to="/themes" className="ListItem">
+            Themes
+          </Link>
+          <Link to="/participation" className="ListItem">
+            Participation
+          </Link>
+          <Link to="/prizes" className="ListItem">
+            Prizes
+          </Link>
+          {/* <Link
             activeClass="active"
             to="home"
             smooth={true}
@@ -100,16 +112,21 @@ export default function Navbar() {
             onClick={() => setShowMenu(false)}
           >
             Participation
-          </Link>
+          </Link> */}
           <Link
-            activeClass="active"
-            to="contact"
-            smooth={true}
-            offset={-50}
-            spy={true}
-            duration={500}
+            // activeClass="active"
+            // to="contact"
+            // smooth={true}
+            // offset={-50}
+            // spy={true}
+            // duration={500}
             className="ListItem"
-            onClick={() => setShowMenu(false)}
+            // onClick={() => setShowMenu(false)}
+            onClick={() => {
+              document
+                .getElementById("contact")
+                .scrollIntoView({ behavior: "smooth" });
+            }}
           >
             Contact
           </Link>
