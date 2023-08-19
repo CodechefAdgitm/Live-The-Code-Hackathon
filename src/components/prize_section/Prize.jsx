@@ -22,8 +22,7 @@ export default function Prize() {
           </div>
         </h2>
       </div>
-        <p className='centerdpara'>Coming soon</p>
-        {/* <div className="container1">
+        <div className="container1">
             <div className="prize1 prize">
                 <div className="first-cup rotate">
                     <img src={trophy} alt=""/>
@@ -141,7 +140,8 @@ export default function Prize() {
                 <h2>More Prizes</h2>
                 <a href="">T&C</a>
                 <p>More prizes will be revealed soon..</p>
-            </div>   */}
+            </div>  
+            </div>
         </div>
     </div>
   )

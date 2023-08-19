@@ -1,6 +1,7 @@
+/* Apply the color theme */
 .themes {
   padding: 2vw 0;
-  background-color: #2191FB;
+  background: #f8f8f8;
 }
 
 .themes-container {
@@ -14,42 +15,89 @@
 
 .theme-box {
   flex: 0 0 calc(33.33% - 20px); /* Each box takes one-third of the container width with 20px gap */
-  background-color: #222222;
+  background-color: #fff; /* Default background color */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
   cursor: pointer; /* Add cursor pointer on hover */
-  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+  transition: background-color 0.3s ease-in-out; /* Add smooth transition */
+  position: relative; /* Add relative position for the strip effect */
 }
 
 .theme-box:hover {
   transform: translateY(-5px); /* Apply hover effect */
+  background-color: #f3f3f3; /* Change background color on hover */
+}
+
+.theme-box::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #FFECFA; /* Pink color */
+  z-index: -1;
+  transition: height 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.theme-box:hover::before {
+  height: 100%; /* Extend the strip on hover */
 }
 
 .theme-box h3 {
   font-size: 1.2rem;
-  color: #fff; /* Use black (#000) for the heading text color */
+  color: #222222; /* Use black (#222) for the heading text color */
   margin-bottom: 10px;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 600;
 }
 
-.theme-box .circleShape {
+.circleShape {
   width: 80px;
   height: 80px;
-  border-radius: 50%; /* Create a circular shape */
-  background-color: #6b5b95; /* Use dark gray (#222) for the circle background */
+  border-radius: 8px; /* Change to create a square shape */
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto 15px;
-  color: #fff; /* Use white (#fff) for the icon color */
+  font-size: 36px;
+  
 }
 
-.theme-box .circleShape svg {
-  font-size: 36px;
+
+/* Different colors for each circle */
+.theme-box:nth-child(1) .circleShape {
+  background-color: #F175D0; /* Pink color */
+  color: #fff;
 }
+
+.theme-box:nth-child(2) .circleShape {
+  background-color: #6C63FF; /* Purple color */
+  color: #fff;
+}
+
+.theme-box:nth-child(3) .circleShape {
+  background-color: #1FDA9A; /* Green color */
+  color: #fff;
+}
+
+.theme-box:nth-child(4) .circleShape {
+  background-color: #2DB6FA; /* Pink color */
+  color: #fff;
+}
+
+.theme-box:nth-child(5) .circleShape {
+  background-color: #F78C0A; /* Purple color */
+  color: #fff;
+}
+
+.theme-box:nth-child(6) .circleShape {
+  background-color: #B60EDF; /* Green color */
+  color: #fff;
+}
+
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
@@ -61,70 +109,5 @@
 @media (max-width: 576px) {
   .theme-box {
     flex: 0 0 calc(100% - 20px); /* Change the box width to full on even smaller screens */
-  }
-}
-
-.container {
-  text-align: center;
-}
-
-.glitch {
-  font-size: 5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-    0.025em 0.04em 0 #fffc00;
-  animation: glitch 725ms infinite;
-}
-
-.glitch span {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.glitch span:first-child {
-  animation: glitch 500ms infinite;
-  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
-  transform: translate(-0.04em, -0.03em);
-  opacity: 0.75;
-}
-
-.glitch span:last-child {
-  animation: glitch 375ms infinite;
-  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
-  transform: translate(0.04em, 0.03em);
-  opacity: 0.75;
-}
-
-@keyframes glitch {
-  0% {
-    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-      0.025em 0.04em 0 #fffc00;
-  }
-  15% {
-    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
-      0.025em 0.04em 0 #fffc00;
-  }
-  16% {
-    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-      -0.05em -0.05em 0 #fffc00;
-  }
-  49% {
-    text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
-      -0.05em -0.05em 0 #fffc00;
-  }
-  50% {
-    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-      0 -0.04em 0 #fffc00;
-  }
-  99% {
-    text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
-      0 -0.04em 0 #fffc00;
-  }
-  100% {
-    text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
-      -0.04em -0.025em 0 #fffc00;
   }
 }
