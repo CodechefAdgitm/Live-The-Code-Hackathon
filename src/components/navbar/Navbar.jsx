@@ -6,9 +6,19 @@ import menu from "../../assets/images/menu.png";
 
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
+  const [colorChange, setColorchange] = useState(false);
+    const changeNavbarColor = () => {
+        if (window.scrollY >= 80) {
+            setColorchange(true);
+        }
+        else {
+            setColorchange(false);
+        }
+    };
+    window.addEventListener('scroll', changeNavbarColor);
   return (
-    <div className="navbar-body">
-      <nav className="navbar">
+    <div className={colorChange ? 'navbar_body colorChange' : 'navbar_body'}>
+      <nav className="navbar" >
         <div className="desktopMenu">
           <Link to="home" smooth={true} offset={-100} spy={true} duration={500} className="desktopMenuListItem">
             Home

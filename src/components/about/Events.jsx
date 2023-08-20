@@ -14,7 +14,11 @@ export default function Events() {
   return (
     <>
       <div className="events">
-        <h1>Event timline</h1>
+      <div className="head">
+        <div className="distortedshape"></div>
+      <h1 className="mainheading">Timeline</h1>
+      <h3 className="subheading">Mark the Dates to set yourself on fire</h3>
+      </div>
         <div className="timeline">
           <div className="container-event left-container">
             
