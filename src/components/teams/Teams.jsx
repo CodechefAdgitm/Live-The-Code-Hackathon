@@ -10,19 +10,10 @@ import img5 from "../../assets/images/IEEE BPIT.png";
 
 export default function Teams() {
   return (
+    <>
+    <div className='shapedown'>
+    </div>
     <section className="team">
-      <div className="heading">
-        <h2>
-          {" "}
-          <div class="container">
-            <p class="glitch">
-              <span aria-hidden="true">Collaborators</span>
-              Collaborators
-              <span aria-hidden="true">Collaborators</span>
-            </p>
-          </div>
-        </h2>
-      </div>
       <div class="logos">
       <div class="logos-slide">
         <img src={img1} />
@@ -40,8 +31,7 @@ export default function Teams() {
         <img src={img5} />
       </div>
     </div>
-      
-      
     </section>
+    </>
   );
 }

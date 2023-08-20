@@ -10,18 +10,7 @@ export default function Prize() {
   return (
     <div>
       <div className="prize-section">
-      <div className="heading">
-        <h2>
-          {" "}
-          <div class="container">
-            <p class="glitch">
-              <span aria-hidden="true">Prizes</span>
-              Prizes
-              <span aria-hidden="true">Prizes</span>
-            </p>
-          </div>
-        </h2>
-      </div>
+      
         <div className="container1">
             <div className="prize1 prize">
                 <div className="first-cup rotate">
@@ -142,6 +131,10 @@ export default function Prize() {
                 <p>More prizes will be revealed soon..</p>
             </div>  
             </div>
+        </div>
+
+        <div className='shape'>
+            
         </div>
     </div>
   )

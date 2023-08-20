@@ -1,9 +1,5 @@
 .team {
-  background: #f8f8f8;
-  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
-}
-body {
-  background: #16324F;
+  background: #2AA1FE;
 }
 
 @keyframes slide {
@@ -18,7 +14,7 @@ body {
 .logos {
   overflow: hidden;
   padding: 60px 0;
-  background: #000;
+
   white-space: nowrap;
   position: relative;
 }
@@ -35,12 +31,11 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), #000);
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #000);
+ 
 }
 
 .logos:hover .logos-slide {
