@@ -100,6 +100,7 @@
   .mobMenu {
     display: block;
   }
+  
   .desktopMenu {
     display: none;
   }
@@ -107,14 +108,22 @@
     display: none;
   }
   .navMenu {
-    display: none;
-    position: relative;
-    top: 0;
-    right: 0;
-    padding: 1rem;
-    min-width: auto;
-    background: none;
-    border-radius: 0;
+    display: none; /* Hide mobile menu items by default */
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    flex-direction: column;
+    padding: 0.5rem;
+    min-width: 15rem;
+    background: white;
+    border-radius: 1rem;
+  }
+
+  /* Show mobile menu items when .active class is applied */
+  .navMenu.active {
+    display: flex;
+    background-color: #15293c;
   }
   .ListItem {
     padding: 0.5rem 0;

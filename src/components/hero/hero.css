@@ -45,6 +45,7 @@
   position: relative;
 }
 
+
 .right img {
   max-width: 100%;
   height: auto;
@@ -65,9 +66,20 @@
   margin-top: 1.5rem; /* Adjust the value as needed */
 }
 
+
+.hero-para {
+  max-width: 100%; /* Set the maximum width for the paragraph */
+  margin: 0 auto; /* Center the text horizontally */
+  padding: 0 15px; /* Add some padding for better readability */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  overflow-wrap: break-word; /* Break words to prevent overflow */
+  font-size: small;
+}
+
+/* Media query for mobile */
 @media (max-width: 768px) {
   .hero-section {
-    padding: 6vw 6vw;
+    padding: 6vw;
     flex-direction: column;
   }
 
@@ -84,5 +96,11 @@
   .right img {
     max-width: 80%;
     margin-top: 3rem;
+  }
+
+  /* Adjust font size and padding for mobile */
+  .hero-para {
+    font-size: 16px;
+    padding: 0 10px;
   }
 }
