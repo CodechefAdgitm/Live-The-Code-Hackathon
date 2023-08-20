@@ -86,6 +86,7 @@
 }
 
 .glitch {
+  color: blue;
   font-size: 5rem;
   font-weight: bold;
   text-transform: uppercase;

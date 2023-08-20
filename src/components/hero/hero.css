@@ -12,6 +12,9 @@
   justify-content: center; /* Center align horizontally */
   color: #222222;
 }
+.action-buttons{
+  padding-top: 3px;
+}
 
 .left {
   width: 90%;
