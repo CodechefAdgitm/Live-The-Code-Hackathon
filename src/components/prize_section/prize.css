@@ -112,6 +112,10 @@ body {
   /* background-color: rgb(224, 224, 224); */
   background-color: #fff;
   /* position: absolute; */
+    /* Adding a 3D shadow effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2),
+    0px 0px 20px rgba(0, 0, 0, 0.15),
+    0px 0px 30px rgba(0, 0, 0, 0.1);
   padding: 30px 40px;
   align-items: center;
   margin-top: 40px;

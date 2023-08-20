@@ -40,12 +40,12 @@
 }
 
 .desktopMenuListItem:hover {
-  color: #2AA1FE;
+  color: #0173CB;
   font-weight: 650;
 }
 
 .desktopMenuListItem.active {
-  color: #2AA1FE;
+  color: #0173CB;
   font-weight: 650;
 }
 
