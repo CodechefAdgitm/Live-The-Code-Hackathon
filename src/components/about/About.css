@@ -1,59 +1,117 @@
-
 /* About.css */
 
 /* Apply the color theme */
 .lightbluebackground {
   background-color: #fff;
 }
-.abtimg{
+.abtimg {
   height: 300px;
+  border-radius: 5px;
 }
-
 
 /* Style the heading */
 .heading h2 {
   text-align: center;
   padding: 2vw;
   font-size: 36px;
-  color: #0C94FE; /* Vivid Blue */
+  color: #0c94fe; /* Vivid Blue */
 }
 
-.subheading{
-  background-color: #FFECFA;
+.subheading {
+  background-color: #ffecfa;
   padding: 5px;
-  font-size: 21px;
+  font-size: 3rem;
   font-weight: 400;
   border-radius: 10px;
   color: #f175d0;
-  width: 8%;
+  width: 14%;
   margin: auto;
   text-align: center;
 }
-.pink{
-  background-color: #FFECFA;
+.pink {
+  background-color: #ffecfa;
   color: #f175d0;
 }
 
-.purple{
-  background-color: #E4DEFF;
-  color: #552BFF;
+.purple {
+  background-color: #e4deff;
+  color: #552bff;
 }
-.pinkbackground{
-  background: linear-gradient(to right, #FFECFA, transparent);
+.pinkbackground {
+  background: linear-gradient(to right, #ffecfa, transparent);
 }
 
-.purplebackground{
-  background: linear-gradient(to left, #E4DEFF, transparent);
+.purplebackground {
+  background: linear-gradient(to left, #e4deff, transparent);
 }
 
 /* Style the points container */
-.points-container {
+.points-container-main {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; Allow the flex items to wrap on smaller screens */
 
   color: #000;
   letter-spacing: 2px;
   padding: 20px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
+  transition: background-color 0.3s ease-in-out; /* Add smooth transition */
+
+  background-color: #fff; /* Default background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  cursor: pointer; /* Add cursor pointer on hover */
+  transition: background-color 0.3s ease-in-out; /* Add smooth transition */
+  position: relative; /* Add relative position for the strip effect */
 }
 
-.points-container p {
+.points-container-main:hover {
+  transform: translateY(-5px); /* Apply hover effect */
+  background-color: #f3f3f3; /* Change background color on hover */
+  transform: perspective(450em) rotateX(18deg);
+  box-shadow: rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+  transition: transform 0.3s ease; 
+}
+
+.points-container-main::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #b3defe; /* Pink color */
+  z-index: -1;
+  transition: height 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.points-container-main:hover::before {
+  height: 100%; /* Extend the strip on hover */
+}
+
+.points-container-main p {
   font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media screen and (max-width: 768px) {
+  .points-container-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .abtimg {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .subheading{
+    font-size: 2rem;
+    width: 70%;
+  }
 }
