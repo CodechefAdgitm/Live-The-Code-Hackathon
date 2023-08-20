@@ -14,20 +14,14 @@ export default function Events() {
   return (
     <>
       <div className="events">
-        <div className="heading"><h2>        <div class="container">
-  <p class="glitch">
-    <span aria-hidden="true">Event Timeline</span>
-    Event Timeline
-    <span aria-hidden="true">Event Timeline</span>
-  </p>
-</div></h2></div>
+        <h1>Event timline</h1>
         <div className="timeline">
           <div className="container-event left-container">
             
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Registration</h2>
-                <small>6 August - 20 August</small>
+                <small>6 August - 27 August</small>
                 <span className="left-container-arrow"></span>
               </div>
             </div>
@@ -40,7 +34,7 @@ export default function Events() {
             <div data-aos="fade-left">
               <div className="text-box">
                 <h2>Orientation</h2>
-                <small>20 August (6pm)</small>
+                <small>2 September (6pm)</small>
                 <span className="right-container-arrow"></span>
               </div>
             </div>
@@ -52,7 +46,7 @@ export default function Events() {
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Speaker Sessions</h2>
-                <small>21 August - 30 August</small>
+                <small>3 September</small>
                 <span className="left-container-arrow"></span>
               </div>
             </div>
@@ -65,7 +59,7 @@ export default function Events() {
             <div data-aos="fade-left">
               <div className="text-box">
                 <h2>Round 1 Idea Presentation</h2>
-                <small>28 August - 29 August</small>
+                <small>4-5 September</small>
                 <span className="right-container-arrow"></span>
               </div>
             </div>
@@ -78,7 +72,7 @@ export default function Events() {
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Round 1 Results</h2>
-                <small>31 August</small>
+                <small>7th September</small>
                 <span className="left-container-arrow"></span>
               </div>
             </div>
@@ -91,7 +85,7 @@ export default function Events() {
             <div data-aos="fade-left">
               <div className="text-box">
                 <h2>Round 2 Coding Phase (36hr)</h2>
-                <small>1 September (11am) - 2 September (11pm)</small>
+                <small>8 September - 9 September</small>
                 <span className="right-container-arrow"></span>
               </div>
             </div>
@@ -104,7 +98,7 @@ export default function Events() {
             <div data-aos="fade-right">
               <div className="text-box">
                 <h2>Final Pitches to judges</h2>
-                <small>3 September(12pm - 6pm)</small>
+                <small>10 September</small>
                 <span className="left-container-arrow"></span>
               </div>
             </div>
@@ -117,7 +111,7 @@ export default function Events() {
             <div data-aos="fade-left">
               <div className="text-box">
                 <h2>Final Result</h2>
-                <small>5 September</small>
+                <small>12 September</small>
                 <span className="right-container-arrow"></span>
               </div>
             </div>

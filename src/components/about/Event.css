@@ -1,6 +1,6 @@
 /* -------------Events--------------------- */
 .events {
-  background: #f8f8f8;
+  background: #a682ff;
   /* height: 100%; */
   padding-top: 2rem;
   padding-bottom: 40px;
@@ -15,9 +15,6 @@
   font-size: 4vw;
 }
 
-.heading h1 {
-  background-image: linear-gradient(to right, #6c63ff, #222222);
-}
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -56,7 +53,7 @@
 
 .text-box {
   padding: 20px 30px;
-  background: #3f3f46;
+  background:  #fff;
   color: #7a7a7a;
   position: relative;
   border-radius: 6px;
@@ -99,18 +96,51 @@
     height: 100%;
   }
 }
+/* Box Styling */
+.text-box {
+  padding: 20px 30px;
+  color: #ffffff; /* White text color */
+  position: relative;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
 .text-box h2 {
   font-weight: 600;
-  color: #cbd5e1;
+  color: #444444;
   font-family: Arial, sans-serif;
+  padding: 4px;
+  margin-bottom: 10px;
 }
+
 .text-box small {
   font-family: Arial, sans-serif;
   font-weight: 900;
   display: inline-block;
   margin-bottom: 15px;
-  color: #9ca3af;
+  font-size: 16px;
 }
+
+/* Customize the background colors for each box */
+.text-box:nth-child(odd) {
+  background-color:  #fff; /* Light purple background for odd boxes */
+}
+
+.text-box:nth-child(even) {
+  background-color: #fff; /* Dark blue background for even boxes */
+}
+
+/* Navbar Styling */
+
+
+/* Apply the color theme */
+.themes {
+  padding: 2vw 0;
+  background: linear-gradient(135deg, #a682ff 0%, #5887ff 100%); /* Gradient background */
+}
+
+/* Rest of the .themes styles... */
+
 .left-container-arrow {
   height: 0;
   width: 0;
@@ -119,7 +149,7 @@
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #222222;
+  border-left: 15px solid #2AA1FE;
   right: -15px;
 }
 .right-container-arrow {
@@ -130,7 +160,7 @@
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid #222222;
+  border-right: 15px solid #2AA1FE;
   left: -15px;
 }
 @media screen and (max-width: 600px) {
@@ -160,7 +190,7 @@
   }
   .left-container-arrow,
   .right-container-arrow {
-    border-right: 15px solid #222222;
+    border-right: 15px solid #2AA1FE;
     border-left: 0;
     left: -15px;
   }

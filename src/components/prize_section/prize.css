@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f8f8;
+  background-color: #715aff;
   font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -7,12 +7,31 @@ body {
 .prize-section {
   width: 100%;
   height: 100%;
-  background-color: #f8f8f8;
+  background-color: #2AA1FE;
   padding: 4px 2px;
   padding-bottom: 100px;
 }
 .prize-section .container1 {
   padding: 0px 110px;
+}
+
+.shape {
+  z-index: -1;
+  width: 100%;
+  height: 100px; /* Adjust the height of the shape */
+  background-color: #2AA1FE;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 0 100%); /* Adjust the polygon shape */
+}
+
+.shapedown {
+  z-index: -1;
+  width: 100%;
+  height: 100px; /* Adjust the height of the shape */
+  background-color: #2AA1FE;
+  z-index: -1;
+  clip-path: polygon(100% 100%, 0 100%, 0 70%, 100% 0);
+
 }
 /* .prize-section h1{
     text-align: center;
@@ -91,7 +110,7 @@ body {
 
 .prize {
   /* background-color: rgb(224, 224, 224); */
-  background-color: #6c63ff;
+  background-color: #fff;
   /* position: absolute; */
   padding: 30px 40px;
   align-items: center;
