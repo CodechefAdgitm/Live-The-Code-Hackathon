@@ -40,13 +40,13 @@
 }
 
 .desktopMenuListItem:hover {
-  color: #2AA1FE;
-  font-weight: 650;
+  color: #6457A6;
+  
 }
 
 .desktopMenuListItem.active {
-  color: #2AA1FE;
-  font-weight: 650;
+  color: #6457A6;
+
 }
 
 .contactButton {
@@ -137,5 +137,5 @@
   background-color: #000;
 }
 .colorChange{
-  background-color: #13293D;
+  background-color: #2A2B2A;
 }
