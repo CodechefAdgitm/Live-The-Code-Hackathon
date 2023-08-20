@@ -4,6 +4,7 @@ import Blob from "./components/blob/blob";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
+import Event from "./components/about/Events"
 import Themes from "./components/themes/Themes";
 import Rules from "./components/participation_rules/Rules";
 import Prize from "./components/prize_section/Prize";
@@ -19,6 +20,7 @@ function App() {
       <Navbar/>
       <Hero />
       <About />
+      <Event/>
       <Themes />
       <Rules />
       <Prize />

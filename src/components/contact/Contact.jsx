@@ -12,8 +12,13 @@ export default function Contact() {
       <div className="footer-content">
         <div className="footer-left">
           <h3>Contact Us</h3>
-          <p>Email: codechef.adgitm@adgitmdelhi.ac.in <br/>codechefadgitmchapter@gmail.com</p>
-          <p>Phone:  Ansh Saxena - +91 73557 43158 <br/>Tanisha Bansal - +91 92131 16476 <br/>Mansi Sharma - +91 99539 30377</p>
+          <p>Email: <br/> Codechef <br/> codechef.adgitm@adgitmdelhi.ac.in <br/> codechefadgitmchapter@gmail.com <br/> Elixir <br/>techcommunityelixir@gmail.com </p>
+         
+        </div>
+        <div className="footer-middle">
+          <h3>Contact Us</h3>
+         
+          <p>Phone: <br/> Codechef <br/>Mansi Sharma - +91 99539 30377  <br/> Tanisha Bansal - +91 92131 16476 <br/> Elixir <br/>  Ansh Saxena - +91 73557 43158 <br/></p>
         </div>
         <div className="footer-right">
           <h3>Follow Us</h3>

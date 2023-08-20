@@ -32,6 +32,11 @@ const Sponsors = () => {
     <>
       <section className="sponsors">
         {/* <p>Coming soon</p> */}
+        <div className="head">
+        <div className="distortedshape"></div>
+      <h1 className="mainheading">Sponsors</h1>
+      <h3 className="subheading">Mark the Dates to set yourself on fire</h3>
+      </div>
         <div className="icons-container">
           {sponsorsData.map((sponsor, index) => (
             <img key={index} className="icon" src={sponsor.src} alt={sponsor.alt}></img>

@@ -32,9 +32,6 @@ export default function Hero() {
                 style={{ height: "44px", width: "312px" }}
               ></div>
             </div>
-            <a href="#about" class="learn-more-btn">
-              Learn More
-            </a>
           </div>
         </div>
       </div>
