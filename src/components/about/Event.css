@@ -112,6 +112,10 @@
   padding: 4px;
   margin-bottom: 10px;
 }
+/* Target the <small> tag inside the .text-box class within a <div> with data-aos="fade-right" */
+.text-box small {
+  color: #444444;
+}
 
 .text-box small {
   font-family: Arial, sans-serif;
@@ -180,6 +184,7 @@
   }
   .text-box small {
     margin-bottom: 10px;
+    color: #000000;
   }
   .right-container {
     left: 0;
@@ -194,6 +199,10 @@
     border-left: 0;
     left: -15px;
   }
+}
+
+.small {
+  color: #0000;
 }
 
 .container {
