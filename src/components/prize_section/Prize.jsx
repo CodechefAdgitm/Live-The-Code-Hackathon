@@ -18,7 +18,7 @@ export default function Prize() {
                 </div>
                 <h2>Overall First</h2>
                 <a href="">T&C</a>
-                <p>Coil Prize, SAWO community box, Devfolio Swag kit, Taskade LifeTime Access, Streamyard Essential Plan, Egghead 1 year plan (all the courses), GFG 1150 coupon - applicable on all courses, Clerky LifeTime Package worth $800, $35</p>
+                <p>A distinguished assortment of prizes and benefits, encompassing Coil Prize, SAWO Community Box, Devfolio Swag Kit, along with an array of others. Notably including a Clerky Lifetime Package worth $800, a GFG 1150 coupon, and a monetary benefit of $35.</p>
             </div>
 
             <br/>
@@ -32,7 +32,7 @@ export default function Prize() {
                     <img src={second} alt=""/>
                 </div>
                 <a href="">T&C</a>
-                <p>Coil Prize, SAWO community box, Devfolio Swag kit, Taskade LifeTime Access, Streamyard Essential Plan, Egghead 1 year plan (all the courses), GFG 800 coupon - applicable on all courses, $20</p>
+                <p>Acquisition of notable rewards, encompassing the Coil Prize, SAWO Community Box, Devfolio Swag Kit, Taskade Lifetime Access, Streamyard Essential Plan, Egghead 1-year plan (complete course access), a versatile GFG $800 coupon, and a monetary benefit of $20.</p>
             </div>
             <br/>
             <br/>
@@ -42,7 +42,7 @@ export default function Prize() {
                 </div>  
                 <h2>Overall Third</h2>
                 <a href="">T&C</a>
-                <p>Coil Prize, SAWO community box, Devfolio Swag kit, Taskade LifeTime Access, Streamyard Essential Plan, Egghead 1 year plan (all the courses), GFG 500 coupon - applicable on all courses, $15</p>
+                <p>An impressive array of rewards, including the Coil Prize, SAWO Community Box, Devfolio Swag Kit, Taskade Lifetime Access, Streamyard Essential Plan, Egghead 1-year comprehensive course plan, a versatile GFG $500 coupon, and a monetary allocation of $15.</p>
             </div>
             <br/>
             <br/>
@@ -52,7 +52,7 @@ export default function Prize() {
                 </div>
                 <h2>Overall Fourth & Fifth</h2>
                 <a href="">T&C</a>
-                <p>Devfolio swag kit, egg head coupon, taskade 2 year, Gfg 150 coupon, Coding ninjas 25%off coupon</p>
+                <p>Collection of achievements features the Devfolio Swag Kit, Egghead coupon for courses, a 2-year Taskade subscription, a GFG $150 coupon for comprehensive learning, and a Coding Ninjas coupon granting a 25% discount.</p>
             </div>
             <br/>
             <br/>
