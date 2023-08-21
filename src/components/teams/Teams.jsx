@@ -12,12 +12,7 @@ export default function Teams() {
   return (
     <>
     <div className='shapedown'>
-     <div className="head">
-        <div className="distortedshape"></div>
-      <h1 className="mainheading">Collaborators</h1>
-      <h3 className="subheading">Mark the Dates to set yourself on fire</h3>
-      </div>
-    
+     
     </div>
     <section className="team">
       <div class="logos">
