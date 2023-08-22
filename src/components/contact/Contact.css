@@ -17,6 +17,7 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .footer-left h3,
@@ -26,7 +27,9 @@
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 900;
 }
-
+.footer-middle h3, p{
+  font-family: 'IBM Plex Mono', monospace;
+}
 .footer-left p,
 .footer-right li {
   margin-bottom: 5px;

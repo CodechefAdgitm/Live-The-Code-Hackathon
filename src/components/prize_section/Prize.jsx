@@ -10,7 +10,9 @@ export default function Prize() {
   return (
     <div>
       <div className="prize-section">
-      
+      <div className='prizeTotal'>
+        <h1>Total prize pool <br/><span>$5000</span></h1>
+      </div>
         <div className="container1">
             <div className="prize1 prize">
                 <div className="first-cup rotate">
@@ -50,9 +52,9 @@ export default function Prize() {
                 <div className="others">
                     <img src={other} alt=""/>
                 </div>
-                <h2>Overall Fourth & Fifth</h2>
+                <h2>Solana</h2>
                 <a href="">T&C</a>
-                <p>Devfolio swag kit, egg head coupon, taskade 2 year, Gfg 150 coupon, Coding ninjas 25%off coupon</p>
+                <p>rising teknoking: $250 <br/>$USDC 250 for the best project that goes into depth, demonstrating higher-order code. <br/> master glasseater: $500<br/>$USDC 500 for the best advanced project that is almost ready for full-time development.</p>
             </div>
             <br/>
             <br/>
@@ -60,10 +62,10 @@ export default function Prize() {
                 <div className="others">
                     <img src={other} alt=""/>
                 </div>
-                <h2>Polygon - Devfolio</h2>
+                <h2>Polygon</h2>
                 <h2>Hackathon Season Prize</h2>
                 <a href="">T&C</a>
-                <p>Polygon will be giving away a cash prize for the best hack built on top of Ethereum (Rs.10000) during the hackathon. For teams that integrate Polygon in their hacks as well the prize money will be higher (Rs.15000) along with eligibility for internship/full-time role interviews and a chance to land seed funding of upto 5000 USD
+                <p>Polygon will be giving away a cash prize for the best hack built on top of Ethereum ($200) during the hackathon. For teams that integrate Polygon in their hacks as well the prize money will be higher (Rs.15000) along with eligibility for internship/full-time role interviews and a chance to land seed funding of upto 5000 USD
 
                 </p>
             </div>
@@ -73,10 +75,10 @@ export default function Prize() {
                 <div className="others">
                     <img src={other} alt=""/>
                 </div>
-                <h2>Tezos - Devfolio Hackathon</h2>
+                <h2>Etherenum</h2>
                 <h2>Season Prizer</h2>
                 <a href="">T&C</a>
-                <p>15000 INR for best Dapp built on Tezos,Continuity grant opportunity up to 5,000 USD for an outstanding project and Every valid submission made in the Tezos track will be rewarded with exclusive Schwag Kits.</p>
+                <p>$150 for best Dapp built on Tezos,Continuity grant opportunity up to 5,000 USD for an outstanding project and Every valid submission made in the Tezos track will be rewarded with exclusive Schwag Kits.</p>
             </div>
             <br/>
             <br/>
@@ -84,10 +86,10 @@ export default function Prize() {
                 <div className="others">
                     <img src={other} alt=""/>
                 </div>
-                <h2>Filecoin - Devfolio</h2>
+                <h2>Ethereum + Polygon Track</h2>
                 <h2>Hackathon Season Prize</h2>
                 <a href="">T&C</a>
-                <p>15000 INR for best use of IPFS and/or Filecoin</p>
+                <p>Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Best hack built on Etherenum + polygon will be awarded a cash prize of $200</p>
             </div>
             <br/>
             <br/>
@@ -95,9 +97,9 @@ export default function Prize() {
                 <div className="others">
                     <img src={other} alt=""/>
                 </div>
-                <h2>Sawo Lab API Prize</h2>
+                <h2>Filecoin</h2>
                 <a href="">T&C</a>
-                <p>100$ and Community Box to the winning team for using Sawo Labs API</p>
+                <p>Read about the bounty details and find code templates for Filecoin here: <a href="https://nsb.dev/filecoin-bounty" target="_blank">https://nsb.dev/filecoin-bounty</a>.Best use of Filecoin and/or IPFS: $250</p>
             </div>
             <br/>
             <br/>
@@ -105,22 +107,22 @@ export default function Prize() {
                 <div className="others">
                     <img src={other} alt=""/>
                 </div>
-                <h2>Celo - Devfolio Hackathon</h2>
+                <h2>Replit</h2>
                 <h2>Season Prize</h2>
                 <a href="">T&C</a>
-                <p>15000 INR for best Dapp built on Celo</p>
+                <p>Winning Project deployed on Replit: $50</p>
             </div>
             <br/>
             <br/>
-            <div className="coil prize">
+            {/* <div className="coil prize">
                 <div className="others">
                     <img src={other} alt=""/>
                 </div>
                 <h2>Coil API Prize</h2>
                 <a href="">T&C</a>
                 <p>3 Coil Prizes for overall winners and Coil Prizes for all who integrate coil API</p>
-            </div>
-            <br/>
+            </div> */}
+            {/* <br/>
             <br/>
             <div className="more prize">
                 <div className="others">
@@ -130,12 +132,13 @@ export default function Prize() {
                 <a href="">T&C</a>
                 <p>More prizes will be revealed soon..</p>
             </div>  
-            </div>
+            </div> */}
         </div>
 
         <div className='shape'>
             
         </div>
+    </div>
     </div>
   )
 }

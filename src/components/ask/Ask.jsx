@@ -3,8 +3,8 @@ import "./Ask.css";
 
 const faqData = [
   {
-    question: "What is a Hackathon",
-    answer: `Hackathons are community events, where you get to interact with students from all around the world as well as forming teams to create future tech.`,
+    question: "Is Hackathon online or offline ",
+    answer: `Hackathon will be conducted completely in online mode`,
   },
   {
     question: "I have no idea what coding is",
@@ -20,11 +20,11 @@ const faqData = [
   },
   {
     question: "Is it necessary to form the team of 4 students",
-    answer: "No the team can range from 2 to 4 members.",
+    answer: "No the team can range from 1 to 4 members.",
   },
   {
     question: "How to participate",
-    answer: "All you need is to fill our form above and we will guide you through everything in email.",
+    answer: "All you need is to fill our the devfolio form and we will guide you through everything in email.",
   },
   {
     question: "I have more doubts",
