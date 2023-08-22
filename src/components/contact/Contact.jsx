@@ -12,20 +12,20 @@ export default function Contact() {
       <div className="footer-content">
         <div className="footer-left">
           <h3>Contact Us</h3>
-          <p>Email: <br/> Codechef <br/> codechef.adgitm@adgitmdelhi.ac.in <br/> codechefadgitmchapter@gmail.com <br/> Elixir <br/>techcommunityelixir@gmail.com </p>
+          <h5>Email:</h5>
+          <p> Codechef <br/> codechef.adgitm@adgitmdelhi.ac.in <br/> codechefadgitmchapter@gmail.com <br/> Elixir <br/>techcommunityelixir@gmail.com </p>
          
         </div>
         <div className="footer-middle">
-          <h3>Contact Us</h3>
-         
-          <p>Phone: <br/> Codechef <br/>Mansi Sharma - +91 99539 30377  <br/> Tanisha Bansal - +91 92131 16476 <br/> Elixir <br/>  Ansh Saxena - +91 73557 43158 <br/></p>
+          <h5>Phone: </h5>
+          <p> Codechef <br/>Mansi Sharma - +91 99539 30377  <br/> Tanisha Bansal - +91 92131 16476 <br/> Elixir <br/>  Ansh Saxena - +91 73557 43158 <br/></p>
         </div>
         <div className="footer-right">
           <h3>Follow Us</h3>
           <ul className="social-links">
             <li><a href="https://www.linkedin.com/company/codechefadgitm/" target="_blank" rel="noopener noreferrer"><FaLinkedin/></a></li>
-            <li><a href="https://twitter.com/hackathon" target="_blank" rel="noopener noreferrer"><FaInstagram/></a></li>
-            <li><a href="https://www.instagram.com/codechefadgitm/" target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
+            <li><a href="https://www.instagram.com/codechefadgitm/" target="_blank" rel="noopener noreferrer"><FaInstagram/></a></li>
+            <li><a href="https://twitter.com/hackathon " target="_blank" rel="noopener noreferrer"><FaTwitter/></a></li>
           </ul>
         </div>
       </div>

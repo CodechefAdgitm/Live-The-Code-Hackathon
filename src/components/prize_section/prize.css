@@ -4,6 +4,28 @@ body {
 }
 
 /* =========== PRIZE SECTION CODE ================== */
+/* CSS for total prize pool section */
+.prizeTotal {
+  background-color: #E4F2FF; /* Light blue background */
+  
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prizeTotal h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.prizeTotal span {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2A2B2A; /* Dark text color */
+}
+
 .prize-section {
   width: 100%;
   height: 100%;
@@ -123,4 +145,41 @@ body {
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .prize-section .container1 {
+    padding: 0px 10px; /* Adjust padding for smaller screens */
+  }
 
+  .shape, .shapedown {
+    height: 50px; /* Adjust the height for smaller screens */
+  }
+
+  .first-cup img, .second-cup img, .third-cup img, .others img {
+    margin-left: -60px; /* Adjust margins for smaller screens */
+  }
+
+  .prize {
+    padding: 5vw 5vh; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Media query for mobile */
+@media (max-width: 480px) {
+  .prize-section .container1 {
+    padding: 0px; /* No padding for very small screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .shape, .shapedown {
+    height: 30px; /* Further adjust the height for very small screens */
+  }
+
+  .first-cup img, .second-cup img, .third-cup img, .others img {
+    margin-left: -40px; /* Further adjust margins for very small screens */
+  }
+
+  .prize {
+    padding: 6vw 6vh; /* Adjust padding for very small screens */
+  }
+}
